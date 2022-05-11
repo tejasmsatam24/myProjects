@@ -8,7 +8,7 @@ I have been coding for 4 years now. I started with android app development as a 
 
 * 🌍  I'm based in Chicago
 * ✉️  You can contact me at [tejasmsatam@gmail.com](mailto:tejasmsatam@gmail.com)
-* 🧠  I'm learning Mobile Development
+* 🧠  I'm learning Blockchain
 * ⚡  Current item on the bucket list is to capture an image of Andromeda galaxy
 
 ### Skills
