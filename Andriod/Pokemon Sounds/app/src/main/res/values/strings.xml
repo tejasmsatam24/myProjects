@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment4</string>
+    <string name="Sounds">Pokemon SoundBoard</string>
+    <string name="playUkulele">Play The Ukulele</string>
+    <string name="pauseUkulele">Pause The Ukulele</string>
+    <string name="playDrums">Play The Drums</string>
+    <string name="pauseDrums">Pause The Drums</string>
+    <string name="content">Button on Grid</string>
+    <string name="soundDef">No sound is playing</string>
+
+</resources>

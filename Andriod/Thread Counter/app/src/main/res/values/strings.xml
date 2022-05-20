@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ThreadCounter</string>
+    <string name="start">0</string>
+</resources>

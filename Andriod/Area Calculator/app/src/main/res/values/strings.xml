@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tejas_Satam_Exam</string>
+    <string name="titleString">Find the Area of:</string>
+    <string name="triangleString">Triangle</string>
+    <string name="circleString">Circle</string>
+    <string name="ellipseString">Ellipse</string>
+    <string name="calculateString">Calculate the Area</string>
+    <string name="hintString">The calculated area will display here</string>
+</resources>

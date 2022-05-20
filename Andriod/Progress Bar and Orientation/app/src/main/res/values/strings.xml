@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tejas_Satam_Portfolio15-1</string>
+    <string name="download_start_label">downloading 0%</string>
+    <string name="download_label">Download</string>
+    <string name="callbacks_label">Callbacks</string>
+    <string name="reset_label">Reset</string>
+    <string name="title_string">Async Task Example</string>
+</resources>

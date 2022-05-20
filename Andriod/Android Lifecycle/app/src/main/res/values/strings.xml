@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Tejas_Satam_Portfolio_6</string>
+    <string name="experiment1">onCreate is called upon launch</string>
+    <string name="experiment2">Pause the activity by pressing the Home button</string>
+    <string name="experiment3">Restart the application from the launcher</string>
+    <string name="experiment4">Rotate the device to destroy and create the activity again</string>
+
+    <string name="createMsg">The activity has been created &#8230; onCreate()</string>
+    <string name="startMsg">The activity has been launched &#8230; onStart()</string>
+    <string name="resumeMsg">The activity is now in the foreground and running &#8230; onResume()</string>
+    <string name="pauseMsg">Another activity is in front of this activity &#8230; onPause()</string>
+    <string name="stopMsg">The activity is no longer visible on the screen &#8230; onStop()</string>
+    <string name="restartMsg">The activity is restarting after being stopped &#8230; onRestart()</string>
+    <string name="destroyMsg">The activity is being destroyed &#8230; onDestroy()</string>
+
+    <string name="createMsg2">SecondActivity - onCreate()</string>
+    <string name="startMsg2">SecondActivity - onStart()</string>
+    <string name="resumeMsg2">SecondActivity - onResume()</string>
+    <string name="pauseMsg2">SecondActivity - onPause()</string>
+    <string name="stopMsg2">SecondActivity - onStop()</string>
+    <string name="restartMsg2">SecondActivity - onRestart()</string>
+    <string name="destroyMsg2">SecondActivity - onDestroy()</string>
+
+    <string name="goLabel">Goto SecondActivity</string>
+    <string name="returnLabel">Return to MainActivity</string>
+</resources>

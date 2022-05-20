@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShippingCalculator_with_Intents</string>
+    <string name="zeroDollarStr">$0.00</string>
+    <string name="weightLabel">Weight of the Package</string>
+    <string name="ouncesLabel">(in ounces)</string>
+    <string name="baseLabel">Base Cost:</string>
+    <string name="addedLabel">Added Cost:</string>
+    <string name="totalLabel">Total Shipping Cost:</string>
+    <string name="zeroStr">0</string>
+
+</resources>

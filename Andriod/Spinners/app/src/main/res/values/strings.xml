@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">spinners</string>
+    <string name="xmlLabel">Populated from strings.xml</string>
+    <string name="classLabel">populated from array in class</string>
+    <string name="listLabel">Populated from List Object</string>
+    <string-array name="spinnerArray">
+        <item>sausage</item>
+        <item>pepperoni</item>
+        <item>Pineapple</item>
+    </string-array>
+</resources>

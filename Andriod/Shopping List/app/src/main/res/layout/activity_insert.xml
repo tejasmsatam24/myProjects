@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index"
+    tools:context=".InsertActivity">
+
+    <TextView
+        android:id="@+id/HeadingTV"
+        android:layout_width="186dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/Additems"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ListET"
+        android:layout_width="352dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/AddBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="onAdd"
+        android:text="@string/Add" />
+
+    <Button
+        android:id="@+id/BackBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="220dp"
+        android:onClick="onBack"
+        android:text="@string/Back" />
+
+    <TextView
+        android:id="@+id/DataTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="32dp" />
+
+</RelativeLayout>

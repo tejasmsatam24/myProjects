@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Z1854197_Portfolio9_Scenes</string>
+    <string name="titleString">Guess The Picture</string>
+    <string name="showString">Show More</string>
+    <string name="startString">Start Over</string>
+    <string name="allString">Show All</string>
+</resources>

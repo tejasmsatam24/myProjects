@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="action_settings">Settings</string>
+    <string name="addString" />
+    <string name="deleteString" />
+    <string name="action_update">Update</string>
+    <string name="Back">BACK</string>
+    <string name="Add">ADD</string>
+    <string name="Additems">New Items</string>
+    <string name="deleteALL">Delete ALL</string>
+</resources>

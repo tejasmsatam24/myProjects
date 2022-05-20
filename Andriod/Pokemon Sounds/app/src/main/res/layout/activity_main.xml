@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pikachu"
+        android:layout_width="171dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:contentDescription="@string/content"
+        android:onClick="playPika"
+        android:src="@drawable/pikachu" />
+
+    <ImageView
+        android:id="@+id/bulbasaur"
+        android:layout_width="171dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:contentDescription="@string/content"
+        android:onClick="playBulba"
+        android:src="@drawable/bulbasaur" />
+
+    <ImageView
+        android:id="@+id/charmander"
+        android:layout_width="171dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="@string/content"
+        android:onClick="playChar"
+        android:src="@drawable/charm" />
+
+    <ImageView
+        android:id="@+id/squirtle"
+        android:layout_width="171dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="@string/content"
+        android:onClick="playSquirtle"
+        android:src="@drawable/squirtle" />
+
+    <ImageView
+        android:id="@+id/blastoise"
+        android:layout_width="171dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="400dp"
+        android:contentDescription="@string/content"
+        android:onClick="playBlastoise"
+        android:src="@drawable/blastoise" />
+
+    <ImageView
+        android:id="@+id/pidgeot"
+        android:layout_width="171dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="400dp"
+        android:contentDescription="@string/content"
+        android:onClick="playPidgeot"
+        android:src="@drawable/pidgeot" />
+
+</RelativeLayout>

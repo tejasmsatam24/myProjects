@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tejas_Satam_Calorie_Calculator</string>
+    <string name="beef_patty">Beef Patty</string>
+    <string name="veggieString">Veggie Patty</string>
+    <string name="baconString">Bacon</string>
+    <string name="NoCheeseString">No Cheese</string>
+    <string name="CheddarString">Cheddar Cheese</string>
+    <string name="mozzString">Mozzarella Cheese</string>
+    <string name="sauceString">Special Sauce - up to one tea spoon</string>
+    <string name="calorieString">Calories?</string>
+</resources>
