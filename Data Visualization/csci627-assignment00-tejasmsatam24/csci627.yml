@@ -1,0 +1,50 @@
+name: csci627
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.6
+  - ca-certificates=2018.10.15
+  - certifi=2018.10.15
+  - clangdev=6.0.1
+  - cycler=0.10.0
+  - freetype=2.9.1
+  - icu=58.2
+  - kiwisolver=1.0.1
+  - libcxx=6.0.1
+  - libffi=3.2.1
+  - libiconv=1.15
+  - libpng=1.6.35
+  - libxml2=2.9.8
+  - llvm-meta=6.0.1
+  - llvmdev=6.0.1
+  - matplotlib=3.0.0
+  - mkl_fft=1.0.6
+  - mkl_random=1.0.1
+  - ncurses=6.1
+  - openssl=1.0.2p
+  - pandas=0.23.4
+  - patsy=0.5.0
+  - pip=18.1
+  - pyparsing=2.2.2
+  - python=3.6.6
+  - python-dateutil=2.7.3
+  - pytz=2018.5
+  - readline=7.0
+  - seaborn=0.9.0
+  - setuptools=40.4.3
+  - six=1.11.0
+  - sqlite=3.25.2
+  - statsmodels=0.9.0
+  - tk=8.6.8
+  - tornado=5.1.1
+  - wheel=0.32.1
+  - xz=5.2.4
+  - zlib=1.2.11
+  - blas=1.0
+  - intel-openmp=2019.0
+  - mkl=2019.0
+  - numpy=1.15.2
+  - numpy-base=1.15.2
+  - scipy=1.1.0
+

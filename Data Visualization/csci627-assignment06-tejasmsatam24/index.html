@@ -1,0 +1,40 @@
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Graduate Admissions Data Visualization</title>
+  <script src="http://d3js.org/d3.v5.min.js"></script>
+  <script src="js/admissions.js"></script>
+  <link href="css/admissions.css" rel="stylesheet" media="screen" type="text/css">
+</head>
+
+<body onload="init()"> <!-- init() method defined in admissions.js-->
+	<h1><center>Interactive Barchart in D3</h1>
+	<div style="margin:30;">
+	  <div style="display: table-cell; width: 200;">
+		<label for="attr_X">X: </label>
+		<select id="attr_X">
+		  <option val="GRE Score">GRE Score</option>
+		  <option val="Research">Reseach Experience</option>
+		  <option val="SOP">SOP Strength</option>
+		</select>
+	  </div>
+	  <div style="display: table-cell; width: 200;">
+		<label for="attr_Y">Y: </label>
+		<select id="attr_Y">
+		  <option val="Chance of Admit">Average chance of admit</option>
+		  <option val="Student Count">Number of students</option>
+		</select>
+	  </div>
+	  <div style="display: table-cell; width: 200;">
+		<button id="update" onclick="updateClicked()">Update Visualization</button>
+	  </div>
+	</div>
+
+	<div id="vis"></div>
+	<style>
+	rect{
+	fill: orange;
+	}
+	</style>
+</body>
+</html>
