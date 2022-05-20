@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Sioux Falls Bike Trials</string>
+		<key>Address</key>
+		<string>Souix Falls, SD</string>
+		<key>Stars</key>
+		<string>5.0 ★★★★★</string>
+		<key>Speciality</key>
+		<string>Hiking Trials</string>
+		<key>Description</key>
+		<string>Sioux Falls is home to over 80 public parks. The centrally located Falls Park is the hub of the park system and connected to many of the city&apos;s other parks. </string>
+		<key>Fees</key>
+		<string>N.A.</string>
+		<key>Website</key>
+		<string>https://www.tripadvisor.com/Attraction_Review-g54805-d7062429-Reviews-Sioux_Falls_Bike_Trails-Sioux_Falls_South_Dakota.html</string>
+		<key>Phone</key>
+		<string>N.A.</string>
+		<key>Cell-Image</key>
+		<string>Sioux Falls Bike Trials copy.jpg</string>
+		<key>Image</key>
+		<string>Sioux Falls Bike Trials.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Falls Park</string>
+		<key>Address</key>
+		<string>131 E Falls Park Drive, Souix Falls, SD 57104</string>
+		<key>Stars</key>
+		<string>5.0 ★★★★★</string>
+		<key>Speciality</key>
+		<string>Parks</string>
+		<key>Description</key>
+		<string>Falls Park is located north of downtown Sioux Falls. The park covers 123 acres and an average of 7,400 galloms of water drops 100 feet over the course of the Falls each second. It includes the visitor center and obseration tower.</string>
+		<key>Fees</key>
+		<string>Free</string>
+		<key>Website</key>
+		<string>https://www.tripadvisor.com/Attraction_Review-g54805-d145428-Reviews-Falls_Park-Sioux_Falls_South_Dakota.html</string>
+		<key>Phone</key>
+		<string>+1(605)3677430</string>
+		<key>Cell-Image</key>
+		<string>Falls Park copy.jpg</string>
+		<key>Image</key>
+		<string>Falls Park.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Butterfly House &amp; Aquarium</string>
+		<key>Address</key>
+		<string>4320 S Oxbow Ave, Sioux Falls, SD 57106</string>
+		<key>Stars</key>
+		<string>5.0 ★★★★★</string>
+		<key>Speciality</key>
+		<string>Nature &amp; Wildlife areas </string>
+		<key>Description</key>
+		<string>Enjoy over 800 free flying butterflies from around the world in the tropical conservatory. View vibrant marine fishes, jellyfishes and corals in ten aquariums.</string>
+		<key>Fees</key>
+		<string>$11</string>
+		<key>Website</key>
+		<string>https://butterflyhousemarinecove.org</string>
+		<key>Phone</key>
+		<string>+1(605)3349466</string>
+		<key>Cell-Image</key>
+		<string>Butterfly House copy.jpg</string>
+		<key>Image</key>
+		<string>Butterfly House.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Great Plains Zoo &amp; Delbridge Museum of Natural History</string>
+		<key>Address</key>
+		<string>805 S Kiwanis Ave, Souix Falls, SD 57104</string>
+		<key>Stars</key>
+		<string>4.0 ★★★★</string>
+		<key>Speciality</key>
+		<string>Nature &amp; Wildlife areas </string>
+		<key>Description</key>
+		<string>The Great Plains Zoo and Delbridge Museum of Natural History is a 45-acre zoo and museum. The Delbridge Museum of Natural History displays 150 mounted animals, including 38 &quot;vanishing species&quot;.</string>
+		<key>Fees</key>
+		<string>$12.75</string>
+		<key>Website</key>
+		<string>https://www.tripadvisor.com/Attraction_Review-g54805-d270605-Reviews-Great_Plains_Zoo_Delbridge_Museum_of_Natural_History-Sioux_Falls_South_Dakota.html</string>
+		<key>Phone</key>
+		<string>+1(605)3677003</string>
+		<key>Cell-Image</key>
+		<string>great plains zoo copy.jpg</string>
+		<key>Image</key>
+		<string>great plains zoo.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Downtown Sioux Falls</string>
+		<key>Address</key>
+		<string>230 S Phillips Ave#102, Souix Falls, SD 57104</string>
+		<key>Stars</key>
+		<string>4.0 ★★★★</string>
+		<key>Speciality</key>
+		<string>N.A.</string>
+		<key>Description</key>
+		<string>A great city begins with an exceptional downtown.
+
+Your next visit to Sioux Falls wouldn’t be complete without experiencing the cradle of our fine community.
+
+Shop, dine, and discover beautiful downtown Sioux Falls—at the heart of it all!</string>
+		<key>Fees</key>
+		<string>N.A.</string>
+		<key>Website</key>
+		<string>https://dtsf.com/events/</string>
+		<key>Phone</key>
+		<string>N.A.</string>
+		<key>Cell-Image</key>
+		<string>Downtown copy.jpg</string>
+		<key>Image</key>
+		<string>Downtown.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wild Water West Waterpark</string>
+		<key>Address</key>
+		<string>26767 466th Ave, Sioux Falls, SD 57106</string>
+		<key>Stars</key>
+		<string>4.0 ★★★★</string>
+		<key>Speciality</key>
+		<string>Arena for Aquatic &amp; on-land fun</string>
+		<key>Description</key>
+		<string>Seasonal Sight with aquatic attractions such as a wave pool, plus go-karts,mini-golf and paintball</string>
+		<key>Fees</key>
+		<string>$12.95</string>
+		<key>Phone</key>
+		<string>+1(605)3619319</string>
+		<key>Website</key>
+		<string>https://wildwaterwest.com</string>
+		<key>Cell-Image</key>
+		<string>wild water west copy.jpg</string>
+		<key>Image</key>
+		<string>wild water west.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>The Outdoor Campus</string>
+		<key>Address</key>
+		<string>4500 S Oxbow Ave, Sioux Falls, SD 57106</string>
+		<key>Stars</key>
+		<string>5.0 ★★★★★</string>
+		<key>Speciality</key>
+		<string>Outdoor Recreation</string>
+		<key>Description</key>
+		<string>The Outdoor Campus provides a number of opportunities for you to enjoy and learn about South Dakota&apos;s outdoor.</string>
+		<key>Fees</key>
+		<string>Varies According the Activity</string>
+		<key>Phone</key>
+		<string>+1(605)3622777</string>
+		<key>Website</key>
+		<string>https://gfp.sd.gov/toc-east/</string>
+		<key>Cell-Image</key>
+		<string>outdoor copy.jpg</string>
+		<key>Image</key>
+		<string>outdoor.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pettigrew Home and Museum</string>
+		<key>Address</key>
+		<string>131 N Duluth Ave, Sioux Falls , SD 57104</string>
+		<key>Stars</key>
+		<string>5.0 ★★★★★</string>
+		<key>Speciality</key>
+		<string>Scenic, Landscapes </string>
+		<key>Description</key>
+		<string>1889 Queens Anne home of the state&apos;s first U.S. Senator, with tours of period furniture and exhibits.</string>
+		<key>Fees</key>
+		<string>Free</string>
+		<key>Phone</key>
+		<string>+1(605)367709</string>
+		<key>Website</key>
+		<string>https://visitsiouxfalls.com/things-to-do/shopping/directory/pettigrew-home-and-museum/</string>
+		<key>Cell-Image</key>
+		<string>pettigrew copy.jpg</string>
+		<key>Image</key>
+		<string>pettigrew.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cathedral Of Saint Joseph</string>
+		<key>Address</key>
+		<string>521 N Duluth Ave, Sioux Falls, SD 57104</string>
+		<key>Stars</key>
+		<string>5.0 ★★★★★</string>
+		<key>Speciality</key>
+		<string>Cathedral</string>
+		<key>Description</key>
+		<string>Saint Joseph Cathedral is a Catholic and parish church. It is the seat of the Diocese of Sioux Falls. Since 1974 the cathedral has been a contributing property in the Cathedral Historic District on the national register of historic places.</string>
+		<key>Fees</key>
+		<string>Free</string>
+		<key>Phone</key>
+		<string>+(605)33677390</string>
+		<key>Cell-Image</key>
+		<string>cathedral copy.jpg</string>
+		<key>Website</key>
+		<string>https://www.tripadvisor.com/Attraction_Review-g54805-d2356125-Reviews-St_Joseph_Cathedral-Sioux_Falls_South_Dakota.html</string>
+		<key>Image</key>
+		<string>cathedral.jpg</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>La Quinta Inn &amp; Suits</string>
+		<key>Address</key>
+		<string>4521 W 41st St, Sioux Falls, SD 57106</string>
+		<key>Price</key>
+		<string>$95</string>
+		<key>Star</key>
+		<string>3★</string>
+		<key>Aminities1</key>
+		<string>Indoor Pool</string>
+		<key>Aminities2</key>
+		<string>Business Center</string>
+		<key>Aminities3</key>
+		<string>Kid Friendly</string>
+		<key>Aminities4</key>
+		<string>Air Conditioned</string>
+		<key>Aminities5</key>
+		<string>Pet-Friendly</string>
+		<key>Aminities6</key>
+		<string>Hot Tub</string>
+		<key>Details</key>
+		<string>This laid-back modern hotel is 5 miles from Marv Skie-Lincoln County Airport, 4 miles from the Great Plains Zoo, and 2 miles from the Butterfly House &amp; Marine Cove. 
+
+Polished, classically furnished rooms have free Wi-Fi and flat-screen TVs, as well as minifridges, microwaves and coffeemakers.</string>
+		<key>Cell_Image</key>
+		<string>la quinta copy.jpg</string>
+		<key>Image</key>
+		<string>la quinta.jpg</string>
+		<key>Website</key>
+		<string>http://www.laquintasiouxfalls.com/?cid=local_6598</string>
+		<key>Phone</key>
+		<string>(605)2754555</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hampton Inn Sioux Falls</string>
+		<key>Address</key>
+		<string>2417 S Carolyn Ave, Sioux Falls, SD 57106</string>
+		<key>Price</key>
+		<string>$96</string>
+		<key>Star</key>
+		<string>3★</string>
+		<key>Aminities1</key>
+		<string>Free Wifi</string>
+		<key>Aminities2</key>
+		<string>Free Parking</string>
+		<key>Aminities3</key>
+		<string>Air Conditioned</string>
+		<key>Aminities4</key>
+		<string>Free Breakfast</string>
+		<key>Aminities5</key>
+		<string>Indoor Pool</string>
+		<key>Aminities6</key>
+		<string>Laundry Services</string>
+		<key>Details</key>
+		<string>Located 5.5 miles from Falls Park, this modern hotel is also 5 miles from the Washington Pavilion, home of the Visual Arts Center and the Kirby Science Discovery Center. </string>
+		<key>Cell_Image</key>
+		<string>hampton copy.jpg</string>
+		<key>Image</key>
+		<string>hampton.jpg</string>
+		<key>Website</key>
+		<string>https://hamptoninn3.hilton.com/en/hotels/south-dakota/hampton-inn-sioux-falls-FSDHHHX/index.html</string>
+		<key>Phone</key>
+		<string>(605)2710992</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hilton Garden Inn Sioux Falls Downtown</string>
+		<key>Address</key>
+		<string>201 E 8th St, Sioux Falls, SD 57103</string>
+		<key>Price</key>
+		<string>$124</string>
+		<key>Star</key>
+		<string>3★</string>
+		<key>Aminities1</key>
+		<string>Free Wifi</string>
+		<key>Aminities2</key>
+		<string>Free Parking</string>
+		<key>Aminities3</key>
+		<string>Indoor Pool</string>
+		<key>Aminities4</key>
+		<string>Laundry Services</string>
+		<key>Aminities5</key>
+		<string>Air Conditioned</string>
+		<key>Aminities6</key>
+		<string>Business Center</string>
+		<key>Details</key>
+		<string>Less than a 1-mile drive from Sioux Falls Park, this downtown hotel is under 3 miles&apos; drive from the Great Plains Zoo. </string>
+		<key>Cell_Image</key>
+		<string>hilton copy.jpg</string>
+		<key>Image</key>
+		<string>hilton.jpg</string>
+		<key>Website</key>
+		<string>https://hiltongardeninn3.hilton.com/en/hotels/south-dakota/hilton-garden-inn-sioux-falls-downtown-FSDDWGI/index.html</string>
+		<key>Phone</key>
+		<string>(605) 444-4700</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sheraton Sioux Falls &amp; Convention Center</string>
+		<key>Address</key>
+		<string>1211 Northwest Ave, Sioux Falls, SD 57104</string>
+		<key>Price</key>
+		<string>$107</string>
+		<key>Star</key>
+		<string>3★</string>
+		<key>Aminities1</key>
+		<string>Free Wifi</string>
+		<key>Aminities2</key>
+		<string>Free Parking</string>
+		<key>Aminities3</key>
+		<string>Pool</string>
+		<key>Aminities4</key>
+		<string>Air Conditioned</string>
+		<key>Aminities5</key>
+		<string>Business Center</string>
+		<key>Aminities6</key>
+		<string>Laundry Services</string>
+		<key>Details</key>
+		<string>Adjoining the Sioux Falls Convention Center, this straightforward hotel is 1.2 miles from Elmwood Golf Course and 2.5 miles from Sioux Falls Regional Airport. There&apos;s a grill restaurant, a lounge/bar and a Starbucks coffee shop. Free WiFi is available in the business center. Other amenities include a heated indoor pool and whirlpool, a sundeck and an exercise room, as well as a free airport shuttle.
+</string>
+		<key>Cell_Image</key>
+		<string>sheraton copy.jpg</string>
+		<key>Image</key>
+		<string>sheraton.jpg</string>
+		<key>Website</key>
+		<string>https://www.marriott.com/hotels/travel/fsdsi-sheraton-sioux-falls-and-convention-center/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2</string>
+		<key>Phone</key>
+		<string>(605) 331-0100</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Staybridge Suites Sioux Falls at Empire Mall</string>
+		<key>Address</key>
+		<string>2505 S Carolyn Ave, Sioux Falls, SD 57106</string>
+		<key>Price</key>
+		<string>$115</string>
+		<key>Star</key>
+		<string>4★</string>
+		<key>Aminities1</key>
+		<string>Free Breakfast</string>
+		<key>Aminities2</key>
+		<string>Free Wifi</string>
+		<key>Aminities3</key>
+		<string>Pool</string>
+		<key>Aminities4</key>
+		<string>Laundry Services</string>
+		<key>Aminities5</key>
+		<string>Business Center</string>
+		<key>Aminities6</key>
+		<string>Air Conditioned</string>
+		<key>Details</key>
+		<string>A 4-minute walk from the nearest bus stop, this straightforward, all-suite hotel in a retail area off Interstate 29 is 3 miles from Great Plains Zoo and 6 miles from Falls Park.</string>
+		<key>Cell_Image</key>
+		<string>staybridge copy.jpg</string>
+		<key>Image</key>
+		<string>staybridge.jpg</string>
+		<key>Website</key>
+		<string>https://www.ihg.com/staybridge/hotels/us/en/sioux-falls/fsdsd/hoteldetail?cm_mmc=GoogleMaps-_-SB-_-US-_-FSDSD</string>
+		<key>Phone</key>
+		<string>1 877 238 8889</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Country Inn &amp; Suites by Radisson, Sioux Falls, SD</string>
+		<key>Address</key>
+		<string>200 E 8th St, Sioux Falls, SD 57104</string>
+		<key>Price</key>
+		<string>$90</string>
+		<key>Star</key>
+		<string>3★</string>
+		<key>Aminities1</key>
+		<string>Reasturant</string>
+		<key>Aminities2</key>
+		<string>Indoor Pool</string>
+		<key>Aminities3</key>
+		<string>Business Center</string>
+		<key>Aminities4</key>
+		<string>Room Service</string>
+		<key>Aminities5</key>
+		<string>Kid Friendly</string>
+		<key>Aminities6</key>
+		<string>Laundry Services</string>
+		<key>Cell_Image</key>
+		<string>country copy.jpg</string>
+		<key>Details</key>
+		<string>Set along the Big Sioux River, this laid-back all-suite hotel is a 6-minute walk from Old Minnehaha County Courthouse and 2.2 miles from Sioux Falls Convention Center and 2.5 miles from Great Plains Zoo.</string>
+		<key>Image</key>
+		<string>country.jpg</string>
+		<key>Website</key>
+		<string>https://www.countryinns.com/sioux-falls-hotel-sd-57104/sdsfalls?s_cid=os.amer-us-cis-SDSFALLS-gmb</string>
+		<key>Phone</key>
+		<string>(605) 373-0153</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Best Western Empire Towers</string>
+		<key>Address</key>
+		<string>4100 W Shirley Pl, Sioux Falls, SD 57106</string>
+		<key>Price</key>
+		<string>$62</string>
+		<key>Star</key>
+		<string>3★</string>
+		<key>Aminities1</key>
+		<string>Free Breakfast</string>
+		<key>Aminities2</key>
+		<string>Air Cinditioned</string>
+		<key>Aminities3</key>
+		<string>Business Center </string>
+		<key>Aminities4</key>
+		<string>Kitchen in all Rooms</string>
+		<key>Aminities5</key>
+		<string>Smoke Free</string>
+		<key>Aminities6</key>
+		<string>Kid Friendly</string>
+		<key>Details</key>
+		<string>In a commercial district of southwest Sioux Falls, this relaxed hotel off I-29 is 1.2 miles from Sertoma Butterfly House &amp; Marine Cove, and 4.3 miles from Downtown. 
+</string>
+		<key>Cell_Image</key>
+		<string>western copy.jpg</string>
+		<key>Image</key>
+		<string>western.jpg</string>
+		<key>Website</key>
+		<string>https://www.bestwestern.com/en_US/book/hotel-rooms.42044.html?iata=00171880&amp;ssob=BLBWI0004G&amp;cid=BLBWI0004G:google:gmb:42044</string>
+		<key>Phone</key>
+		<string>(605) 361-3118</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ramada by Wyndham Sioux Falls Airport Hotel &amp; Suites</string>
+		<key>Address</key>
+		<string>1301 W Russell St, Sioux Falls, SD 57104</string>
+		<key>Price</key>
+		<string>$87</string>
+		<key>Star</key>
+		<string>3★</string>
+		<key>Aminities1</key>
+		<string>Fitness Center</string>
+		<key>Aminities2</key>
+		<string>Bar</string>
+		<key>Aminities3</key>
+		<string>Resturant</string>
+		<key>Aminities4</key>
+		<string>Business Center</string>
+		<key>Aminities5</key>
+		<string>Free Wifi</string>
+		<key>Aminities6</key>
+		<string>Free Parking</string>
+		<key>Details</key>
+		<string>Opposite Sioux Falls Convention Center, this classic hotel featuring a water park is 1.9 miles from I-29 and 2.1 miles from Sioux Falls Regional Airport. </string>
+		<key>Cell_Image</key>
+		<string>ramada copy.jpg</string>
+		<key>Image</key>
+		<string>ramada.jpg</string>
+		<key>Website</key>
+		<string>https://www.wyndhamhotels.com/ramada/sioux-falls-south-dakota/ramada-hotel-and-suites-sioux-falls-airport/overview?CID=LC:RA::GGL:RIO:National:07957&amp;iata=00065402</string>
+		<key>Phone</key>
+		<string>605) 336-1020</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hilton Garden Inn Sioux Falls South</string>
+		<key>Address</key>
+		<string>5300 S Grand Cir, Sioux Falls, SD 57108</string>
+		<key>Price</key>
+		<string>$119</string>
+		<key>Star</key>
+		<string>3★</string>
+		<key>Aminities1</key>
+		<string>Hot Tub</string>
+		<key>Aminities2</key>
+		<string>Bar</string>
+		<key>Aminities3</key>
+		<string>SmokevFree</string>
+		<key>Aminities4</key>
+		<string>Free Parking</string>
+		<key>Aminities5</key>
+		<string>Kitchen in all Rooms</string>
+		<key>Aminities6</key>
+		<string>Air Conditioned</string>
+		<key>Details</key>
+		<string>This contemporary hotel is an 2-minute drive from Interstate 229 and a 5.3-mile drive to the Sioux Falls Convention Center. </string>
+		<key>Cell_Image</key>
+		<string>hiltongarden copy.jpg</string>
+		<key>Image</key>
+		<string>hiltongarden.jpg</string>
+		<key>Website</key>
+		<string>https://hiltongardeninn3.hilton.com/en/hotels/south-dakota/hilton-garden-inn-sioux-falls-south-FSDSFGI/index.html</string>
+		<key>Phone</key>
+		<string>(605) 444-4500</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Fairfield Inn &amp; Suites by Marriott Sioux Falls Airport</string>
+		<key>Address</key>
+		<string>4035 Bobhalla Dr, Sioux Falls, SD 57107</string>
+		<key>Price</key>
+		<string>$87</string>
+		<key>Star</key>
+		<string>3★</string>
+		<key>Aminities1</key>
+		<string>Airport Shuttle</string>
+		<key>Aminities2</key>
+		<string>Free Wifi</string>
+		<key>Aminities3</key>
+		<string>Free Breakfast</string>
+		<key>Aminities4</key>
+		<string>Free Park</string>
+		<key>Aminities5</key>
+		<string>Kid Friendly</string>
+		<key>Aminities6</key>
+		<string>Air Conditioned</string>
+		<key>Details</key>
+		<string>Off Interstate 29, this modern hotel is about 4 miles from both the Sioux Falls Regional Airport and the Great Plains Zoo. 
+</string>
+		<key>Cell_Image</key>
+		<string>fairfield copy.jpg</string>
+		<key>Image</key>
+		<string>fairfield.jpg</string>
+		<key>Website</key>
+		<string>https://www.marriott.com/hotels/travel/fsdnw-fairfield-inn-and-suites-sioux-falls-airport/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2</string>
+		<key>Phone</key>
+		<string>(605) 339-8997</string>
+	</dict>
+</array>
+</plist>

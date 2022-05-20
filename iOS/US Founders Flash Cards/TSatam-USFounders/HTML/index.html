@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+		
+		<title>Mobile Friendly Page</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,600,800' type='text/css' media='all'/>
+
+		<!-- JavaScript -->
+		<script type="text/javascript" src="javascript/jQuery.all.js"></script>
+		<script type="text/javascript" src="javascript/dropDown.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				//Run code upload Page load
+				enableDropDownForIds('#userInfo, #createAccount');
+			});
+		</script>
+	</head>
+	<body>
+		<div id="titleBar" class="blue-gradiant">My Portfolio</div>
+		<img src="images/profile_pic.jpg" id="profile_pic" alt="Profile Picture"/>
+		<div id="name" class="blue-gradiant">EXPERIENCES AND INTERESTS</div>
+		<div class="experienceDetails">
+			<span class="company">Lokmanya Tilak College of Engineering</span>
+			<span class="address">Kopar Khairane, Navi Mumbai, India</span>
+			<span class="yearSpan">Summer 2017</span>
+			<span class="positionTitle">Lead Developer</span>
+			<p>Developed various applications for college.</p>
+		</div>
+        <hr class="width-75">
+		<div class="experienceDetails">
+			<span class="company">Lokmanya Tilak College of Engineering</span>
+			<span class="address">Kopar Khairane, Navi Mumbai, India</span>
+			<span class="yearSpan">Summer 2016</span>
+			<span class="positionTitle">Technical Manager</span>
+			<p>Responsibile for handling and managing all the computers during the events of college festival. </p>
+		</div>
+        
+        
+        
+		<hr class="width-75">
+		<div class="experienceDetails">
+        
+        <span class="company">NORTHERN ILLINOIS UNVERSITY</span><span class="address">DeKalb, Illinois</span>
+			<span class="yearSpan">FALL 2018</span>
+			<span class="positionTitle">GRADUATE STUDENT</span>
+		  <p>HAVING FUN LEARNING TO CODE IN SWIFT. PLANNING TO START MY CAREER AS A MOBILE APPLICATION DEVELOPER.</p>
+		</div>
+        
+        
+        
+		
+		<div id="footer">
+			Designed by Tejas Satam (Former student of Kai Rush). Updated for CSCI 321/521, Fall 2018 Course.
+	</div>
+	</body>
+</html>

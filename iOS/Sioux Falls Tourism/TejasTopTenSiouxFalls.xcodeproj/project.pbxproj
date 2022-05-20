@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0F027A217150EF00E29070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F0279217150EF00E29070 /* AppDelegate.swift */; };
+		AB0F027C217150EF00E29070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F027B217150EF00E29070 /* ViewController.swift */; };
+		AB0F027F217150EF00E29070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0F027D217150EF00E29070 /* Main.storyboard */; };
+		AB0F0281217150F000E29070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0F0280217150F000E29070 /* Assets.xcassets */; };
+		AB0F0284217150F000E29070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0F0282217150F000E29070 /* LaunchScreen.storyboard */; };
+		AB778B9F2172581C005D084F /* Screen Shot 2018-10-13 at 11.42.44 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = AB778B9E2172581C005D084F /* Screen Shot 2018-10-13 at 11.42.44 AM.png */; };
+		AB778BA121725C77005D084F /* Hotels.png in Resources */ = {isa = PBXBuildFile; fileRef = AB778BA021725C76005D084F /* Hotels.png */; };
+		AB778BA421725C95005D084F /* Resturants.png in Resources */ = {isa = PBXBuildFile; fileRef = AB778BA221725C95005D084F /* Resturants.png */; };
+		AB778BA521725C95005D084F /* Tourist.png in Resources */ = {isa = PBXBuildFile; fileRef = AB778BA321725C95005D084F /* Tourist.png */; };
+		AB778BA721727317005D084F /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB778BA621727317005D084F /* AboutAppViewController.swift */; };
+		ABBEEBDE21740749005A522B /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEEBDD21740749005A522B /* HotelTableViewCell.swift */; };
+		ABBEEBE02174092E005A522B /* HotelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEEBDF2174092E005A522B /* HotelTableViewController.swift */; };
+		ABBEEBE2217416A5005A522B /* Hotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEEBE1217416A5005A522B /* Hotels.swift */; };
+		ABBEEBE4217472F5005A522B /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEEBE3217472F5005A522B /* HotelViewController.swift */; };
+		ABBEEBE6217483CC005A522B /* Resturants.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBE5217483CC005A522B /* Resturants.plist */; };
+		ABBEEBFC21749463005A522B /* cracker copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBE821749460005A522B /* cracker copy.jpg */; };
+		ABBEEBFD21749463005A522B /* carnival copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBE921749460005A522B /* carnival copy.jpg */; };
+		ABBEEBFE21749463005A522B /* carnival.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBEA21749461005A522B /* carnival.jpg */; };
+		ABBEEBFF21749463005A522B /* miners.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBEB21749461005A522B /* miners.jpg */; };
+		ABBEEC0021749463005A522B /* phillips copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBEC21749461005A522B /* phillips copy.jpg */; };
+		ABBEEC0121749463005A522B /* pan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBED21749461005A522B /* pan.jpg */; };
+		ABBEEC0221749463005A522B /* pan copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBEE21749461005A522B /* pan copy.jpg */; };
+		ABBEEC0321749463005A522B /* miners copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBEF21749461005A522B /* miners copy.jpg */; };
+		ABBEEC0421749463005A522B /* sanaa copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBF021749461005A522B /* sanaa copy.jpg */; };
+		ABBEEC0521749463005A522B /* sanaa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBF121749461005A522B /* sanaa.jpg */; };
+		ABBEEC0621749463005A522B /* roll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBF221749462005A522B /* roll.jpg */; };
+		ABBEEC0721749463005A522B /* phillips.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBF321749462005A522B /* phillips.jpg */; };
+		ABBEEC0821749463005A522B /* cracker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBF421749462005A522B /* cracker.jpg */; };
+		ABBEEC0921749463005A522B /* jackys copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBF521749462005A522B /* jackys copy.jpg */; };
+		ABBEEC0A21749463005A522B /* mackenzie copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBF621749462005A522B /* mackenzie copy.jpg */; };
+		ABBEEC0B21749463005A522B /* roll copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBF721749462005A522B /* roll copy.jpg */; };
+		ABBEEC0C21749463005A522B /* jackys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBF821749462005A522B /* jackys.jpg */; };
+		ABBEEC0D21749463005A522B /* spezia copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBF921749463005A522B /* spezia copy.jpg */; };
+		ABBEEC0E21749463005A522B /* spezia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBFA21749463005A522B /* spezia.jpg */; };
+		ABBEEC0F21749463005A522B /* mackenzie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEEBFB21749463005A522B /* mackenzie.jpg */; };
+		ABBEEC112174A094005A522B /* Resturant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEEC102174A094005A522B /* Resturant.swift */; };
+		ABBEEC132174A3CB005A522B /* ResturantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEEC122174A3CB005A522B /* ResturantTableViewController.swift */; };
+		ABBEEC152174A917005A522B /* ResturantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEEC142174A917005A522B /* ResturantTableViewCell.swift */; };
+		ABD2DCE32172DCDA00AC6DE6 /* Tourist.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCE22172DCDA00AC6DE6 /* Tourist.plist */; };
+		ABD2DCF92172FD8100AC6DE6 /* outdoor copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCE52172FD7D00AC6DE6 /* outdoor copy.jpg */; };
+		ABD2DCFA2172FD8100AC6DE6 /* mckennan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCE62172FD7D00AC6DE6 /* mckennan.jpg */; };
+		ABD2DCFB2172FD8100AC6DE6 /* pettigrew copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCE72172FD7D00AC6DE6 /* pettigrew copy.jpg */; };
+		ABD2DCFC2172FD8100AC6DE6 /* Sioux Falls Bike Trials.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCE82172FD7D00AC6DE6 /* Sioux Falls Bike Trials.jpg */; };
+		ABD2DCFD2172FD8100AC6DE6 /* Falls Park copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCE92172FD7E00AC6DE6 /* Falls Park copy.jpg */; };
+		ABD2DCFE2172FD8100AC6DE6 /* Downtown copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCEA2172FD7E00AC6DE6 /* Downtown copy.jpg */; };
+		ABD2DCFF2172FD8100AC6DE6 /* mckennan copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCEB2172FD7E00AC6DE6 /* mckennan copy.jpg */; };
+		ABD2DD002172FD8100AC6DE6 /* great plains zoo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCEC2172FD7E00AC6DE6 /* great plains zoo.jpg */; };
+		ABD2DD012172FD8100AC6DE6 /* cathedral copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCED2172FD7E00AC6DE6 /* cathedral copy.jpg */; };
+		ABD2DD022172FD8100AC6DE6 /* wild water west copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCEE2172FD7E00AC6DE6 /* wild water west copy.jpg */; };
+		ABD2DD032172FD8100AC6DE6 /* great plains zoo copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCEF2172FD7F00AC6DE6 /* great plains zoo copy.jpg */; };
+		ABD2DD042172FD8100AC6DE6 /* Butterfly House copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCF02172FD7F00AC6DE6 /* Butterfly House copy.jpg */; };
+		ABD2DD052172FD8100AC6DE6 /* outdoor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCF12172FD7F00AC6DE6 /* outdoor.jpg */; };
+		ABD2DD062172FD8100AC6DE6 /* wild water west.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCF22172FD7F00AC6DE6 /* wild water west.jpg */; };
+		ABD2DD072172FD8100AC6DE6 /* Sioux Falls Bike Trials copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCF32172FD8000AC6DE6 /* Sioux Falls Bike Trials copy.jpg */; };
+		ABD2DD082172FD8100AC6DE6 /* Butterfly House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCF42172FD8000AC6DE6 /* Butterfly House.jpg */; };
+		ABD2DD092172FD8100AC6DE6 /* Downtown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCF52172FD8000AC6DE6 /* Downtown.jpg */; };
+		ABD2DD0A2172FD8100AC6DE6 /* pettigrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCF62172FD8000AC6DE6 /* pettigrew.jpg */; };
+		ABD2DD0B2172FD8100AC6DE6 /* Falls Park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCF72172FD8000AC6DE6 /* Falls Park.jpg */; };
+		ABD2DD0C2172FD8100AC6DE6 /* cathedral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DCF82172FD8100AC6DE6 /* cathedral.jpg */; };
+		ABD2DD0E217301AE00AC6DE6 /* Tourist.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2DD0D217301AE00AC6DE6 /* Tourist.swift */; };
+		ABD2DD102173077000AC6DE6 /* TouristTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2DD0F2173077000AC6DE6 /* TouristTableViewController.swift */; };
+		ABD2DD1221730E1B00AC6DE6 /* TouristTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2DD1121730E1B00AC6DE6 /* TouristTableViewCell.swift */; };
+		ABD2DD1421739D6D00AC6DE6 /* TouristViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2DD1321739D6D00AC6DE6 /* TouristViewController.swift */; };
+		ABD2DD1C2173BD0C00AC6DE6 /* Hotel.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD1B2173BD0C00AC6DE6 /* Hotel.plist */; };
+		ABD2DD322173F19A00AC6DE6 /* sheraton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD1E2173F19600AC6DE6 /* sheraton.jpg */; };
+		ABD2DD332173F19A00AC6DE6 /* country.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD1F2173F19600AC6DE6 /* country.jpg */; };
+		ABD2DD342173F19A00AC6DE6 /* staybridge copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD202173F19600AC6DE6 /* staybridge copy.jpg */; };
+		ABD2DD352173F19A00AC6DE6 /* sheraton copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD212173F19600AC6DE6 /* sheraton copy.jpg */; };
+		ABD2DD362173F19A00AC6DE6 /* hiltongarden copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD222173F19600AC6DE6 /* hiltongarden copy.jpg */; };
+		ABD2DD372173F19A00AC6DE6 /* hampton copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD232173F19600AC6DE6 /* hampton copy.jpg */; };
+		ABD2DD382173F19A00AC6DE6 /* hiltongarden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD242173F19700AC6DE6 /* hiltongarden.jpg */; };
+		ABD2DD392173F19A00AC6DE6 /* staybridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD252173F19700AC6DE6 /* staybridge.jpg */; };
+		ABD2DD3A2173F19A00AC6DE6 /* fairfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD262173F19700AC6DE6 /* fairfield.jpg */; };
+		ABD2DD3B2173F19A00AC6DE6 /* country copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD272173F19700AC6DE6 /* country copy.jpg */; };
+		ABD2DD3C2173F19A00AC6DE6 /* hilton copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD282173F19700AC6DE6 /* hilton copy.jpg */; };
+		ABD2DD3D2173F19A00AC6DE6 /* hilton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD292173F19800AC6DE6 /* hilton.jpg */; };
+		ABD2DD3E2173F19A00AC6DE6 /* western copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD2A2173F19800AC6DE6 /* western copy.jpg */; };
+		ABD2DD3F2173F19A00AC6DE6 /* hampton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD2B2173F19800AC6DE6 /* hampton.jpg */; };
+		ABD2DD402173F19A00AC6DE6 /* la quinta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD2C2173F19800AC6DE6 /* la quinta.jpg */; };
+		ABD2DD412173F19A00AC6DE6 /* ramada copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD2D2173F19900AC6DE6 /* ramada copy.jpg */; };
+		ABD2DD422173F19A00AC6DE6 /* la quinta copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD2E2173F19900AC6DE6 /* la quinta copy.jpg */; };
+		ABD2DD432173F19A00AC6DE6 /* western.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD2F2173F19900AC6DE6 /* western.jpg */; };
+		ABD2DD442173F19A00AC6DE6 /* ramada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD302173F19900AC6DE6 /* ramada.jpg */; };
+		ABD2DD452173F19A00AC6DE6 /* fairfield copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DD312173F19900AC6DE6 /* fairfield copy.jpg */; };
+		ABECBF2421754146008321C1 /* ResturantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECBF2321754146008321C1 /* ResturantViewController.swift */; };
+		ABECBF26217582AE008321C1 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECBF25217582AE008321C1 /* AboutAuthorViewController.swift */; };
+		ABECBF3221758B6D008321C1 /* contact_process.php in Resources */ = {isa = PBXBuildFile; fileRef = ABECBF2821758B67008321C1 /* contact_process.php */; };
+		ABECBF3321758B6D008321C1 /* prepros-6.config in Resources */ = {isa = PBXBuildFile; fileRef = ABECBF2921758B67008321C1 /* prepros-6.config */; };
+		ABECBF3421758B6D008321C1 /* scss in Resources */ = {isa = PBXBuildFile; fileRef = ABECBF2A21758B67008321C1 /* scss */; };
+		ABECBF3521758B6D008321C1 /* css in Resources */ = {isa = PBXBuildFile; fileRef = ABECBF2B21758B67008321C1 /* css */; };
+		ABECBF3621758B6D008321C1 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = ABECBF2C21758B67008321C1 /* fonts */; };
+		ABECBF3721758B6D008321C1 /* js in Resources */ = {isa = PBXBuildFile; fileRef = ABECBF2D21758B67008321C1 /* js */; };
+		ABECBF3821758B6D008321C1 /* vendors in Resources */ = {isa = PBXBuildFile; fileRef = ABECBF2E21758B69008321C1 /* vendors */; };
+		ABECBF3921758B6D008321C1 /* MeetMe-doc in Resources */ = {isa = PBXBuildFile; fileRef = ABECBF2F21758B69008321C1 /* MeetMe-doc */; };
+		ABECBF3A21758B6D008321C1 /* img in Resources */ = {isa = PBXBuildFile; fileRef = ABECBF3021758B6A008321C1 /* img */; };
+		ABECBF3B21758B6D008321C1 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = ABECBF3121758B6C008321C1 /* index.html */; };
+		ABECBF3D21758F62008321C1 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECBF3C21758F62008321C1 /* WebsiteViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB0F0276217150EF00E29070 /* TejasTopTenSiouxFalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TejasTopTenSiouxFalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0F0279217150EF00E29070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB0F027B217150EF00E29070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB0F027E217150EF00E29070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB0F0280217150F000E29070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB0F0283217150F000E29070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB0F0285217150F000E29070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB778B9E2172581C005D084F /* Screen Shot 2018-10-13 at 11.42.44 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-10-13 at 11.42.44 AM.png"; sourceTree = "<group>"; };
+		AB778BA021725C76005D084F /* Hotels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hotels.png; sourceTree = "<group>"; };
+		AB778BA221725C95005D084F /* Resturants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resturants.png; sourceTree = "<group>"; };
+		AB778BA321725C95005D084F /* Tourist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tourist.png; sourceTree = "<group>"; };
+		AB778BA621727317005D084F /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
+		ABBEEBDD21740749005A522B /* HotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
+		ABBEEBDF2174092E005A522B /* HotelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewController.swift; sourceTree = "<group>"; };
+		ABBEEBE1217416A5005A522B /* Hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotels.swift; sourceTree = "<group>"; };
+		ABBEEBE3217472F5005A522B /* HotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewController.swift; sourceTree = "<group>"; };
+		ABBEEBE5217483CC005A522B /* Resturants.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Resturants.plist; sourceTree = "<group>"; };
+		ABBEEBE821749460005A522B /* cracker copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cracker copy.jpg"; sourceTree = "<group>"; };
+		ABBEEBE921749460005A522B /* carnival copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "carnival copy.jpg"; sourceTree = "<group>"; };
+		ABBEEBEA21749461005A522B /* carnival.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carnival.jpg; sourceTree = "<group>"; };
+		ABBEEBEB21749461005A522B /* miners.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miners.jpg; sourceTree = "<group>"; };
+		ABBEEBEC21749461005A522B /* phillips copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "phillips copy.jpg"; sourceTree = "<group>"; };
+		ABBEEBED21749461005A522B /* pan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pan.jpg; sourceTree = "<group>"; };
+		ABBEEBEE21749461005A522B /* pan copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pan copy.jpg"; sourceTree = "<group>"; };
+		ABBEEBEF21749461005A522B /* miners copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "miners copy.jpg"; sourceTree = "<group>"; };
+		ABBEEBF021749461005A522B /* sanaa copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sanaa copy.jpg"; sourceTree = "<group>"; };
+		ABBEEBF121749461005A522B /* sanaa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanaa.jpg; sourceTree = "<group>"; };
+		ABBEEBF221749462005A522B /* roll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roll.jpg; sourceTree = "<group>"; };
+		ABBEEBF321749462005A522B /* phillips.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phillips.jpg; sourceTree = "<group>"; };
+		ABBEEBF421749462005A522B /* cracker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cracker.jpg; sourceTree = "<group>"; };
+		ABBEEBF521749462005A522B /* jackys copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jackys copy.jpg"; sourceTree = "<group>"; };
+		ABBEEBF621749462005A522B /* mackenzie copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mackenzie copy.jpg"; sourceTree = "<group>"; };
+		ABBEEBF721749462005A522B /* roll copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "roll copy.jpg"; sourceTree = "<group>"; };
+		ABBEEBF821749462005A522B /* jackys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jackys.jpg; sourceTree = "<group>"; };
+		ABBEEBF921749463005A522B /* spezia copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "spezia copy.jpg"; sourceTree = "<group>"; };
+		ABBEEBFA21749463005A522B /* spezia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spezia.jpg; sourceTree = "<group>"; };
+		ABBEEBFB21749463005A522B /* mackenzie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mackenzie.jpg; sourceTree = "<group>"; };
+		ABBEEC102174A094005A522B /* Resturant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resturant.swift; sourceTree = "<group>"; };
+		ABBEEC122174A3CB005A522B /* ResturantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantTableViewController.swift; sourceTree = "<group>"; };
+		ABBEEC142174A917005A522B /* ResturantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantTableViewCell.swift; sourceTree = "<group>"; };
+		ABD2DCE22172DCDA00AC6DE6 /* Tourist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Tourist.plist; sourceTree = "<group>"; };
+		ABD2DCE52172FD7D00AC6DE6 /* outdoor copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "outdoor copy.jpg"; sourceTree = "<group>"; };
+		ABD2DCE62172FD7D00AC6DE6 /* mckennan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mckennan.jpg; sourceTree = "<group>"; };
+		ABD2DCE72172FD7D00AC6DE6 /* pettigrew copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pettigrew copy.jpg"; sourceTree = "<group>"; };
+		ABD2DCE82172FD7D00AC6DE6 /* Sioux Falls Bike Trials.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sioux Falls Bike Trials.jpg"; sourceTree = "<group>"; };
+		ABD2DCE92172FD7E00AC6DE6 /* Falls Park copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Falls Park copy.jpg"; sourceTree = "<group>"; };
+		ABD2DCEA2172FD7E00AC6DE6 /* Downtown copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Downtown copy.jpg"; sourceTree = "<group>"; };
+		ABD2DCEB2172FD7E00AC6DE6 /* mckennan copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mckennan copy.jpg"; sourceTree = "<group>"; };
+		ABD2DCEC2172FD7E00AC6DE6 /* great plains zoo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "great plains zoo.jpg"; sourceTree = "<group>"; };
+		ABD2DCED2172FD7E00AC6DE6 /* cathedral copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cathedral copy.jpg"; sourceTree = "<group>"; };
+		ABD2DCEE2172FD7E00AC6DE6 /* wild water west copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wild water west copy.jpg"; sourceTree = "<group>"; };
+		ABD2DCEF2172FD7F00AC6DE6 /* great plains zoo copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "great plains zoo copy.jpg"; sourceTree = "<group>"; };
+		ABD2DCF02172FD7F00AC6DE6 /* Butterfly House copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Butterfly House copy.jpg"; sourceTree = "<group>"; };
+		ABD2DCF12172FD7F00AC6DE6 /* outdoor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = outdoor.jpg; sourceTree = "<group>"; };
+		ABD2DCF22172FD7F00AC6DE6 /* wild water west.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wild water west.jpg"; sourceTree = "<group>"; };
+		ABD2DCF32172FD8000AC6DE6 /* Sioux Falls Bike Trials copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sioux Falls Bike Trials copy.jpg"; sourceTree = "<group>"; };
+		ABD2DCF42172FD8000AC6DE6 /* Butterfly House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Butterfly House.jpg"; sourceTree = "<group>"; };
+		ABD2DCF52172FD8000AC6DE6 /* Downtown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Downtown.jpg; sourceTree = "<group>"; };
+		ABD2DCF62172FD8000AC6DE6 /* pettigrew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pettigrew.jpg; sourceTree = "<group>"; };
+		ABD2DCF72172FD8000AC6DE6 /* Falls Park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Falls Park.jpg"; sourceTree = "<group>"; };
+		ABD2DCF82172FD8100AC6DE6 /* cathedral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cathedral.jpg; sourceTree = "<group>"; };
+		ABD2DD0D217301AE00AC6DE6 /* Tourist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tourist.swift; sourceTree = "<group>"; };
+		ABD2DD0F2173077000AC6DE6 /* TouristTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristTableViewController.swift; sourceTree = "<group>"; };
+		ABD2DD1121730E1B00AC6DE6 /* TouristTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristTableViewCell.swift; sourceTree = "<group>"; };
+		ABD2DD1321739D6D00AC6DE6 /* TouristViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristViewController.swift; sourceTree = "<group>"; };
+		ABD2DD1B2173BD0C00AC6DE6 /* Hotel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Hotel.plist; sourceTree = "<group>"; };
+		ABD2DD1E2173F19600AC6DE6 /* sheraton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sheraton.jpg; sourceTree = "<group>"; };
+		ABD2DD1F2173F19600AC6DE6 /* country.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = country.jpg; sourceTree = "<group>"; };
+		ABD2DD202173F19600AC6DE6 /* staybridge copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "staybridge copy.jpg"; sourceTree = "<group>"; };
+		ABD2DD212173F19600AC6DE6 /* sheraton copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sheraton copy.jpg"; sourceTree = "<group>"; };
+		ABD2DD222173F19600AC6DE6 /* hiltongarden copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hiltongarden copy.jpg"; sourceTree = "<group>"; };
+		ABD2DD232173F19600AC6DE6 /* hampton copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hampton copy.jpg"; sourceTree = "<group>"; };
+		ABD2DD242173F19700AC6DE6 /* hiltongarden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiltongarden.jpg; sourceTree = "<group>"; };
+		ABD2DD252173F19700AC6DE6 /* staybridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = staybridge.jpg; sourceTree = "<group>"; };
+		ABD2DD262173F19700AC6DE6 /* fairfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fairfield.jpg; sourceTree = "<group>"; };
+		ABD2DD272173F19700AC6DE6 /* country copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "country copy.jpg"; sourceTree = "<group>"; };
+		ABD2DD282173F19700AC6DE6 /* hilton copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hilton copy.jpg"; sourceTree = "<group>"; };
+		ABD2DD292173F19800AC6DE6 /* hilton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hilton.jpg; sourceTree = "<group>"; };
+		ABD2DD2A2173F19800AC6DE6 /* western copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "western copy.jpg"; sourceTree = "<group>"; };
+		ABD2DD2B2173F19800AC6DE6 /* hampton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hampton.jpg; sourceTree = "<group>"; };
+		ABD2DD2C2173F19800AC6DE6 /* la quinta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "la quinta.jpg"; sourceTree = "<group>"; };
+		ABD2DD2D2173F19900AC6DE6 /* ramada copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ramada copy.jpg"; sourceTree = "<group>"; };
+		ABD2DD2E2173F19900AC6DE6 /* la quinta copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "la quinta copy.jpg"; sourceTree = "<group>"; };
+		ABD2DD2F2173F19900AC6DE6 /* western.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = western.jpg; sourceTree = "<group>"; };
+		ABD2DD302173F19900AC6DE6 /* ramada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ramada.jpg; sourceTree = "<group>"; };
+		ABD2DD312173F19900AC6DE6 /* fairfield copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fairfield copy.jpg"; sourceTree = "<group>"; };
+		ABECBF2321754146008321C1 /* ResturantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantViewController.swift; sourceTree = "<group>"; };
+		ABECBF25217582AE008321C1 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		ABECBF2821758B67008321C1 /* contact_process.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = contact_process.php; sourceTree = "<group>"; };
+		ABECBF2921758B67008321C1 /* prepros-6.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "prepros-6.config"; sourceTree = "<group>"; };
+		ABECBF2A21758B67008321C1 /* scss */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scss; sourceTree = "<group>"; };
+		ABECBF2B21758B67008321C1 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		ABECBF2C21758B67008321C1 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		ABECBF2D21758B67008321C1 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		ABECBF2E21758B69008321C1 /* vendors */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vendors; sourceTree = "<group>"; };
+		ABECBF2F21758B69008321C1 /* MeetMe-doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "MeetMe-doc"; sourceTree = "<group>"; };
+		ABECBF3021758B6A008321C1 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		ABECBF3121758B6C008321C1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		ABECBF3C21758F62008321C1 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB0F0273217150EF00E29070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0F026D217150EE00E29070 = {
+			isa = PBXGroup;
+			children = (
+				ABECBF3C21758F62008321C1 /* WebsiteViewController.swift */,
+				ABECBF2721758B4B008321C1 /* html */,
+				ABBEEC142174A917005A522B /* ResturantTableViewCell.swift */,
+				ABBEEC122174A3CB005A522B /* ResturantTableViewController.swift */,
+				ABBEEC102174A094005A522B /* Resturant.swift */,
+				ABBEEBE721749441005A522B /* Resturants */,
+				ABBEEBE5217483CC005A522B /* Resturants.plist */,
+				ABD2DD1D2173F17F00AC6DE6 /* Hotels */,
+				ABD2DD1B2173BD0C00AC6DE6 /* Hotel.plist */,
+				ABD2DD1121730E1B00AC6DE6 /* TouristTableViewCell.swift */,
+				ABD2DD0D217301AE00AC6DE6 /* Tourist.swift */,
+				ABBEEBE1217416A5005A522B /* Hotels.swift */,
+				ABD2DCE42172FD5F00AC6DE6 /* Tourist Places */,
+				AB778BA221725C95005D084F /* Resturants.png */,
+				AB778BA321725C95005D084F /* Tourist.png */,
+				AB778BA021725C76005D084F /* Hotels.png */,
+				AB778B9E2172581C005D084F /* Screen Shot 2018-10-13 at 11.42.44 AM.png */,
+				ABD2DCE22172DCDA00AC6DE6 /* Tourist.plist */,
+				AB0F0278217150EF00E29070 /* TejasTopTenSiouxFalls */,
+				AB0F0277217150EF00E29070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB0F0277217150EF00E29070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0F0276217150EF00E29070 /* TejasTopTenSiouxFalls.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB0F0278217150EF00E29070 /* TejasTopTenSiouxFalls */ = {
+			isa = PBXGroup;
+			children = (
+				AB0F0279217150EF00E29070 /* AppDelegate.swift */,
+				AB0F027B217150EF00E29070 /* ViewController.swift */,
+				AB0F027D217150EF00E29070 /* Main.storyboard */,
+				ABECBF25217582AE008321C1 /* AboutAuthorViewController.swift */,
+				ABECBF2321754146008321C1 /* ResturantViewController.swift */,
+				ABBEEBE3217472F5005A522B /* HotelViewController.swift */,
+				ABBEEBDF2174092E005A522B /* HotelTableViewController.swift */,
+				ABBEEBDD21740749005A522B /* HotelTableViewCell.swift */,
+				AB778BA621727317005D084F /* AboutAppViewController.swift */,
+				AB0F0280217150F000E29070 /* Assets.xcassets */,
+				AB0F0282217150F000E29070 /* LaunchScreen.storyboard */,
+				AB0F0285217150F000E29070 /* Info.plist */,
+				ABD2DD0F2173077000AC6DE6 /* TouristTableViewController.swift */,
+				ABD2DD1321739D6D00AC6DE6 /* TouristViewController.swift */,
+			);
+			path = TejasTopTenSiouxFalls;
+			sourceTree = "<group>";
+		};
+		ABBEEBE721749441005A522B /* Resturants */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEEBE921749460005A522B /* carnival copy.jpg */,
+				ABBEEBEA21749461005A522B /* carnival.jpg */,
+				ABBEEBE821749460005A522B /* cracker copy.jpg */,
+				ABBEEBF421749462005A522B /* cracker.jpg */,
+				ABBEEBF521749462005A522B /* jackys copy.jpg */,
+				ABBEEBF821749462005A522B /* jackys.jpg */,
+				ABBEEBF621749462005A522B /* mackenzie copy.jpg */,
+				ABBEEBFB21749463005A522B /* mackenzie.jpg */,
+				ABBEEBEF21749461005A522B /* miners copy.jpg */,
+				ABBEEBEB21749461005A522B /* miners.jpg */,
+				ABBEEBEE21749461005A522B /* pan copy.jpg */,
+				ABBEEBED21749461005A522B /* pan.jpg */,
+				ABBEEBEC21749461005A522B /* phillips copy.jpg */,
+				ABBEEBF321749462005A522B /* phillips.jpg */,
+				ABBEEBF721749462005A522B /* roll copy.jpg */,
+				ABBEEBF221749462005A522B /* roll.jpg */,
+				ABBEEBF021749461005A522B /* sanaa copy.jpg */,
+				ABBEEBF121749461005A522B /* sanaa.jpg */,
+				ABBEEBF921749463005A522B /* spezia copy.jpg */,
+				ABBEEBFA21749463005A522B /* spezia.jpg */,
+			);
+			path = Resturants;
+			sourceTree = "<group>";
+		};
+		ABD2DCE42172FD5F00AC6DE6 /* Tourist Places */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2DCF02172FD7F00AC6DE6 /* Butterfly House copy.jpg */,
+				ABD2DCF42172FD8000AC6DE6 /* Butterfly House.jpg */,
+				ABD2DCED2172FD7E00AC6DE6 /* cathedral copy.jpg */,
+				ABD2DCF82172FD8100AC6DE6 /* cathedral.jpg */,
+				ABD2DCEA2172FD7E00AC6DE6 /* Downtown copy.jpg */,
+				ABD2DCF52172FD8000AC6DE6 /* Downtown.jpg */,
+				ABD2DCE92172FD7E00AC6DE6 /* Falls Park copy.jpg */,
+				ABD2DCF72172FD8000AC6DE6 /* Falls Park.jpg */,
+				ABD2DCEF2172FD7F00AC6DE6 /* great plains zoo copy.jpg */,
+				ABD2DCEC2172FD7E00AC6DE6 /* great plains zoo.jpg */,
+				ABD2DCEB2172FD7E00AC6DE6 /* mckennan copy.jpg */,
+				ABD2DCE62172FD7D00AC6DE6 /* mckennan.jpg */,
+				ABD2DCE52172FD7D00AC6DE6 /* outdoor copy.jpg */,
+				ABD2DCF12172FD7F00AC6DE6 /* outdoor.jpg */,
+				ABD2DCE72172FD7D00AC6DE6 /* pettigrew copy.jpg */,
+				ABD2DCF62172FD8000AC6DE6 /* pettigrew.jpg */,
+				ABD2DCF32172FD8000AC6DE6 /* Sioux Falls Bike Trials copy.jpg */,
+				ABD2DCE82172FD7D00AC6DE6 /* Sioux Falls Bike Trials.jpg */,
+				ABD2DCEE2172FD7E00AC6DE6 /* wild water west copy.jpg */,
+				ABD2DCF22172FD7F00AC6DE6 /* wild water west.jpg */,
+			);
+			path = "Tourist Places";
+			sourceTree = "<group>";
+		};
+		ABD2DD1D2173F17F00AC6DE6 /* Hotels */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2DD272173F19700AC6DE6 /* country copy.jpg */,
+				ABD2DD1F2173F19600AC6DE6 /* country.jpg */,
+				ABD2DD312173F19900AC6DE6 /* fairfield copy.jpg */,
+				ABD2DD262173F19700AC6DE6 /* fairfield.jpg */,
+				ABD2DD232173F19600AC6DE6 /* hampton copy.jpg */,
+				ABD2DD2B2173F19800AC6DE6 /* hampton.jpg */,
+				ABD2DD282173F19700AC6DE6 /* hilton copy.jpg */,
+				ABD2DD292173F19800AC6DE6 /* hilton.jpg */,
+				ABD2DD222173F19600AC6DE6 /* hiltongarden copy.jpg */,
+				ABD2DD242173F19700AC6DE6 /* hiltongarden.jpg */,
+				ABD2DD2E2173F19900AC6DE6 /* la quinta copy.jpg */,
+				ABD2DD2C2173F19800AC6DE6 /* la quinta.jpg */,
+				ABD2DD2D2173F19900AC6DE6 /* ramada copy.jpg */,
+				ABD2DD302173F19900AC6DE6 /* ramada.jpg */,
+				ABD2DD212173F19600AC6DE6 /* sheraton copy.jpg */,
+				ABD2DD1E2173F19600AC6DE6 /* sheraton.jpg */,
+				ABD2DD202173F19600AC6DE6 /* staybridge copy.jpg */,
+				ABD2DD252173F19700AC6DE6 /* staybridge.jpg */,
+				ABD2DD2A2173F19800AC6DE6 /* western copy.jpg */,
+				ABD2DD2F2173F19900AC6DE6 /* western.jpg */,
+			);
+			path = Hotels;
+			sourceTree = "<group>";
+		};
+		ABECBF2721758B4B008321C1 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				ABECBF2821758B67008321C1 /* contact_process.php */,
+				ABECBF2B21758B67008321C1 /* css */,
+				ABECBF2C21758B67008321C1 /* fonts */,
+				ABECBF3021758B6A008321C1 /* img */,
+				ABECBF3121758B6C008321C1 /* index.html */,
+				ABECBF2D21758B67008321C1 /* js */,
+				ABECBF2F21758B69008321C1 /* MeetMe-doc */,
+				ABECBF2921758B67008321C1 /* prepros-6.config */,
+				ABECBF2A21758B67008321C1 /* scss */,
+				ABECBF2E21758B69008321C1 /* vendors */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB0F0275217150EF00E29070 /* TejasTopTenSiouxFalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0F0288217150F000E29070 /* Build configuration list for PBXNativeTarget "TejasTopTenSiouxFalls" */;
+			buildPhases = (
+				AB0F0272217150EF00E29070 /* Sources */,
+				AB0F0273217150EF00E29070 /* Frameworks */,
+				AB0F0274217150EF00E29070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TejasTopTenSiouxFalls;
+			productName = TejasTopTenSiouxFalls;
+			productReference = AB0F0276217150EF00E29070 /* TejasTopTenSiouxFalls.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB0F026E217150EE00E29070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tejas Satam";
+				TargetAttributes = {
+					AB0F0275217150EF00E29070 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AB0F0271217150EE00E29070 /* Build configuration list for PBXProject "TejasTopTenSiouxFalls" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB0F026D217150EE00E29070;
+			productRefGroup = AB0F0277217150EF00E29070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0F0275217150EF00E29070 /* TejasTopTenSiouxFalls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB0F0274217150EF00E29070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2DD3A2173F19A00AC6DE6 /* fairfield.jpg in Resources */,
+				AB778BA421725C95005D084F /* Resturants.png in Resources */,
+				ABD2DD3F2173F19A00AC6DE6 /* hampton.jpg in Resources */,
+				ABD2DCE32172DCDA00AC6DE6 /* Tourist.plist in Resources */,
+				ABD2DCFC2172FD8100AC6DE6 /* Sioux Falls Bike Trials.jpg in Resources */,
+				ABECBF3B21758B6D008321C1 /* index.html in Resources */,
+				ABD2DD432173F19A00AC6DE6 /* western.jpg in Resources */,
+				ABECBF3A21758B6D008321C1 /* img in Resources */,
+				ABBEEC0721749463005A522B /* phillips.jpg in Resources */,
+				ABD2DD032172FD8100AC6DE6 /* great plains zoo copy.jpg in Resources */,
+				ABD2DD392173F19A00AC6DE6 /* staybridge.jpg in Resources */,
+				ABD2DD1C2173BD0C00AC6DE6 /* Hotel.plist in Resources */,
+				ABECBF3321758B6D008321C1 /* prepros-6.config in Resources */,
+				ABD2DD452173F19A00AC6DE6 /* fairfield copy.jpg in Resources */,
+				ABD2DD3C2173F19A00AC6DE6 /* hilton copy.jpg in Resources */,
+				ABBEEBFF21749463005A522B /* miners.jpg in Resources */,
+				ABBEEC0A21749463005A522B /* mackenzie copy.jpg in Resources */,
+				ABD2DD052172FD8100AC6DE6 /* outdoor.jpg in Resources */,
+				AB0F0284217150F000E29070 /* LaunchScreen.storyboard in Resources */,
+				AB778BA521725C95005D084F /* Tourist.png in Resources */,
+				ABD2DD002172FD8100AC6DE6 /* great plains zoo.jpg in Resources */,
+				ABD2DD3E2173F19A00AC6DE6 /* western copy.jpg in Resources */,
+				ABD2DD442173F19A00AC6DE6 /* ramada.jpg in Resources */,
+				ABD2DCFB2172FD8100AC6DE6 /* pettigrew copy.jpg in Resources */,
+				ABBEEC0D21749463005A522B /* spezia copy.jpg in Resources */,
+				ABBEEC0321749463005A522B /* miners copy.jpg in Resources */,
+				ABBEEC0021749463005A522B /* phillips copy.jpg in Resources */,
+				ABD2DD402173F19A00AC6DE6 /* la quinta.jpg in Resources */,
+				ABECBF3821758B6D008321C1 /* vendors in Resources */,
+				ABBEEC0221749463005A522B /* pan copy.jpg in Resources */,
+				ABD2DCF92172FD8100AC6DE6 /* outdoor copy.jpg in Resources */,
+				ABD2DD342173F19A00AC6DE6 /* staybridge copy.jpg in Resources */,
+				ABD2DCFE2172FD8100AC6DE6 /* Downtown copy.jpg in Resources */,
+				ABBEEC0B21749463005A522B /* roll copy.jpg in Resources */,
+				ABBEEBFE21749463005A522B /* carnival.jpg in Resources */,
+				ABD2DD422173F19A00AC6DE6 /* la quinta copy.jpg in Resources */,
+				ABBEEBFD21749463005A522B /* carnival copy.jpg in Resources */,
+				ABBEEC0921749463005A522B /* jackys copy.jpg in Resources */,
+				ABECBF3721758B6D008321C1 /* js in Resources */,
+				ABD2DCFF2172FD8100AC6DE6 /* mckennan copy.jpg in Resources */,
+				ABECBF3621758B6D008321C1 /* fonts in Resources */,
+				ABECBF3421758B6D008321C1 /* scss in Resources */,
+				ABD2DD412173F19A00AC6DE6 /* ramada copy.jpg in Resources */,
+				ABBEEC0E21749463005A522B /* spezia.jpg in Resources */,
+				ABBEEC0121749463005A522B /* pan.jpg in Resources */,
+				ABD2DD0C2172FD8100AC6DE6 /* cathedral.jpg in Resources */,
+				ABECBF3921758B6D008321C1 /* MeetMe-doc in Resources */,
+				ABBEEBFC21749463005A522B /* cracker copy.jpg in Resources */,
+				ABD2DD072172FD8100AC6DE6 /* Sioux Falls Bike Trials copy.jpg in Resources */,
+				ABD2DD092172FD8100AC6DE6 /* Downtown.jpg in Resources */,
+				ABD2DD062172FD8100AC6DE6 /* wild water west.jpg in Resources */,
+				AB778BA121725C77005D084F /* Hotels.png in Resources */,
+				ABD2DD082172FD8100AC6DE6 /* Butterfly House.jpg in Resources */,
+				ABD2DD3D2173F19A00AC6DE6 /* hilton.jpg in Resources */,
+				ABD2DCFA2172FD8100AC6DE6 /* mckennan.jpg in Resources */,
+				ABBEEC0821749463005A522B /* cracker.jpg in Resources */,
+				ABD2DCFD2172FD8100AC6DE6 /* Falls Park copy.jpg in Resources */,
+				ABD2DD362173F19A00AC6DE6 /* hiltongarden copy.jpg in Resources */,
+				ABD2DD322173F19A00AC6DE6 /* sheraton.jpg in Resources */,
+				ABBEEC0C21749463005A522B /* jackys.jpg in Resources */,
+				ABD2DD352173F19A00AC6DE6 /* sheraton copy.jpg in Resources */,
+				ABD2DD0A2172FD8100AC6DE6 /* pettigrew.jpg in Resources */,
+				ABECBF3521758B6D008321C1 /* css in Resources */,
+				ABD2DD012172FD8100AC6DE6 /* cathedral copy.jpg in Resources */,
+				ABD2DD042172FD8100AC6DE6 /* Butterfly House copy.jpg in Resources */,
+				ABD2DD0B2172FD8100AC6DE6 /* Falls Park.jpg in Resources */,
+				ABD2DD022172FD8100AC6DE6 /* wild water west copy.jpg in Resources */,
+				ABD2DD382173F19A00AC6DE6 /* hiltongarden.jpg in Resources */,
+				ABBEEC0621749463005A522B /* roll.jpg in Resources */,
+				ABD2DD332173F19A00AC6DE6 /* country.jpg in Resources */,
+				ABBEEC0F21749463005A522B /* mackenzie.jpg in Resources */,
+				ABD2DD3B2173F19A00AC6DE6 /* country copy.jpg in Resources */,
+				AB0F0281217150F000E29070 /* Assets.xcassets in Resources */,
+				AB0F027F217150EF00E29070 /* Main.storyboard in Resources */,
+				ABD2DD372173F19A00AC6DE6 /* hampton copy.jpg in Resources */,
+				ABBEEC0521749463005A522B /* sanaa.jpg in Resources */,
+				ABECBF3221758B6D008321C1 /* contact_process.php in Resources */,
+				ABBEEC0421749463005A522B /* sanaa copy.jpg in Resources */,
+				AB778B9F2172581C005D084F /* Screen Shot 2018-10-13 at 11.42.44 AM.png in Resources */,
+				ABBEEBE6217483CC005A522B /* Resturants.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB0F0272217150EF00E29070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBEEBE2217416A5005A522B /* Hotels.swift in Sources */,
+				ABD2DD1421739D6D00AC6DE6 /* TouristViewController.swift in Sources */,
+				ABBEEC112174A094005A522B /* Resturant.swift in Sources */,
+				ABD2DD102173077000AC6DE6 /* TouristTableViewController.swift in Sources */,
+				ABECBF2421754146008321C1 /* ResturantViewController.swift in Sources */,
+				ABBEEBDE21740749005A522B /* HotelTableViewCell.swift in Sources */,
+				ABBEEBE4217472F5005A522B /* HotelViewController.swift in Sources */,
+				ABECBF26217582AE008321C1 /* AboutAuthorViewController.swift in Sources */,
+				AB0F027C217150EF00E29070 /* ViewController.swift in Sources */,
+				ABBEEBE02174092E005A522B /* HotelTableViewController.swift in Sources */,
+				AB0F027A217150EF00E29070 /* AppDelegate.swift in Sources */,
+				ABD2DD0E217301AE00AC6DE6 /* Tourist.swift in Sources */,
+				ABD2DD1221730E1B00AC6DE6 /* TouristTableViewCell.swift in Sources */,
+				AB778BA721727317005D084F /* AboutAppViewController.swift in Sources */,
+				ABBEEC152174A917005A522B /* ResturantTableViewCell.swift in Sources */,
+				ABBEEC132174A3CB005A522B /* ResturantTableViewController.swift in Sources */,
+				ABECBF3D21758F62008321C1 /* WebsiteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB0F027D217150EF00E29070 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0F027E217150EF00E29070 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB0F0282217150F000E29070 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0F0283217150F000E29070 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB0F0286217150F000E29070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB0F0287217150F000E29070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB0F0289217150F000E29070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H73X4N48RJ;
+				INFOPLIST_FILE = TejasTopTenSiouxFalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.TejasTopTenSiouxFalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB0F028A217150F000E29070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H73X4N48RJ;
+				INFOPLIST_FILE = TejasTopTenSiouxFalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.TejasTopTenSiouxFalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB0F0271217150EE00E29070 /* Build configuration list for PBXProject "TejasTopTenSiouxFalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0F0286217150F000E29070 /* Debug */,
+				AB0F0287217150F000E29070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0F0288217150F000E29070 /* Build configuration list for PBXNativeTarget "TejasTopTenSiouxFalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0F0289217150F000E29070 /* Debug */,
+				AB0F028A217150F000E29070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB0F026E217150EE00E29070 /* Project object */;
+}

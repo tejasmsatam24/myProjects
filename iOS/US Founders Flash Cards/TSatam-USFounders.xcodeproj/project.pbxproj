@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0A9E20216860F9007153E6 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0A9E1F216860F9007153E6 /* AboutAuthorViewController.swift */; };
+		AB0A9E25216865A4007153E6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AB0A9E22216865A4007153E6 /* index.html */; };
+		AB0A9E26216865A4007153E6 /* css in Resources */ = {isa = PBXBuildFile; fileRef = AB0A9E23216865A4007153E6 /* css */; };
+		AB0A9E27216865A4007153E6 /* images in Resources */ = {isa = PBXBuildFile; fileRef = AB0A9E24216865A4007153E6 /* images */; };
+		AB378AEE215AE11A0098B81D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB378AED215AE11A0098B81D /* AppDelegate.swift */; };
+		AB378AF3215AE11A0098B81D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB378AF1215AE11A0098B81D /* Main.storyboard */; };
+		AB378AF5215AE11A0098B81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB378AF4215AE11A0098B81D /* Assets.xcassets */; };
+		AB378AF8215AE11A0098B81D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB378AF6215AE11A0098B81D /* LaunchScreen.storyboard */; };
+		AB378B00215AE1380098B81D /* USFounders.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB378AFF215AE1380098B81D /* USFounders.plist */; };
+		AB6327722165651200B905C4 /* PresidentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6327712165651200B905C4 /* PresidentTableViewController.swift */; };
+		AB9EF3F62168122000B3C774 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9EF3F52168122000B3C774 /* DetailViewController.swift */; };
+		ABA815AE21680E8400545062 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA815AD21680E8400545062 /* TableViewCell.swift */; };
+		ABAA2CF6215D55080084D771 /* John Jay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CE8215D55080084D771 /* John Jay.jpg */; };
+		ABAA2CF7215D55080084D771 /* George Washington copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CE9215D55080084D771 /* George Washington copy.jpg */; };
+		ABAA2CF8215D55080084D771 /* Thomas Jefferson copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CEA215D55080084D771 /* Thomas Jefferson copy.jpg */; };
+		ABAA2CF9215D55080084D771 /* John Jay copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CEB215D55080084D771 /* John Jay copy.jpg */; };
+		ABAA2CFA215D55080084D771 /* James Madison copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CEC215D55080084D771 /* James Madison copy.jpg */; };
+		ABAA2CFB215D55080084D771 /* Thomas Jefferson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CED215D55080084D771 /* Thomas Jefferson.jpg */; };
+		ABAA2CFC215D55080084D771 /* Alexander_Hamilton copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CEE215D55080084D771 /* Alexander_Hamilton copy.jpg */; };
+		ABAA2CFD215D55080084D771 /* James Madison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CEF215D55080084D771 /* James Madison.jpg */; };
+		ABAA2CFE215D55080084D771 /* Benjamin Franklin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CF0215D55080084D771 /* Benjamin Franklin.jpg */; };
+		ABAA2CFF215D55080084D771 /* George Washington.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CF1215D55080084D771 /* George Washington.jpg */; };
+		ABAA2D00215D55080084D771 /* Alexander_Hamilton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CF2215D55080084D771 /* Alexander_Hamilton.jpg */; };
+		ABAA2D01215D55080084D771 /* John Adams copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CF3215D55080084D771 /* John Adams copy.jpg */; };
+		ABAA2D02215D55080084D771 /* John Adams.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CF4215D55080084D771 /* John Adams.jpg */; };
+		ABAA2D03215D55080084D771 /* Benjamin Franklin copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABAA2CF5215D55080084D771 /* Benjamin Franklin copy.jpg */; };
+		ABFE5CB7216539D900D97E75 /* Presidents.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFE5CB6216539D900D97E75 /* Presidents.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB0A9E1F216860F9007153E6 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		AB0A9E22216865A4007153E6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		AB0A9E23216865A4007153E6 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		AB0A9E24216865A4007153E6 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		AB378AEA215AE11A0098B81D /* TSatam-USFounders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSatam-USFounders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB378AED215AE11A0098B81D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB378AF2215AE11A0098B81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB378AF4215AE11A0098B81D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB378AF7215AE11A0098B81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB378AF9215AE11A0098B81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB378AFF215AE1380098B81D /* USFounders.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = USFounders.plist; sourceTree = "<group>"; };
+		AB6327712165651200B905C4 /* PresidentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentTableViewController.swift; sourceTree = "<group>"; };
+		AB9EF3F52168122000B3C774 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ABA815AD21680E8400545062 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		ABAA2CE8215D55080084D771 /* John Jay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "John Jay.jpg"; sourceTree = "<group>"; };
+		ABAA2CE9215D55080084D771 /* George Washington copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "George Washington copy.jpg"; sourceTree = "<group>"; };
+		ABAA2CEA215D55080084D771 /* Thomas Jefferson copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thomas Jefferson copy.jpg"; sourceTree = "<group>"; };
+		ABAA2CEB215D55080084D771 /* John Jay copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "John Jay copy.jpg"; sourceTree = "<group>"; };
+		ABAA2CEC215D55080084D771 /* James Madison copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "James Madison copy.jpg"; sourceTree = "<group>"; };
+		ABAA2CED215D55080084D771 /* Thomas Jefferson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thomas Jefferson.jpg"; sourceTree = "<group>"; };
+		ABAA2CEE215D55080084D771 /* Alexander_Hamilton copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alexander_Hamilton copy.jpg"; sourceTree = "<group>"; };
+		ABAA2CEF215D55080084D771 /* James Madison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "James Madison.jpg"; sourceTree = "<group>"; };
+		ABAA2CF0215D55080084D771 /* Benjamin Franklin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Benjamin Franklin.jpg"; sourceTree = "<group>"; };
+		ABAA2CF1215D55080084D771 /* George Washington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "George Washington.jpg"; sourceTree = "<group>"; };
+		ABAA2CF2215D55080084D771 /* Alexander_Hamilton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alexander_Hamilton.jpg; sourceTree = "<group>"; };
+		ABAA2CF3215D55080084D771 /* John Adams copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "John Adams copy.jpg"; sourceTree = "<group>"; };
+		ABAA2CF4215D55080084D771 /* John Adams.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "John Adams.jpg"; sourceTree = "<group>"; };
+		ABAA2CF5215D55080084D771 /* Benjamin Franklin copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Benjamin Franklin copy.jpg"; sourceTree = "<group>"; };
+		ABFE5CB6216539D900D97E75 /* Presidents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presidents.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB378AE7215AE11A0098B81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0A9E2121686570007153E6 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				AB0A9E23216865A4007153E6 /* css */,
+				AB0A9E24216865A4007153E6 /* images */,
+				AB0A9E22216865A4007153E6 /* index.html */,
+				AB378AF1215AE11A0098B81D /* Main.storyboard */,
+			);
+			path = HTML;
+			sourceTree = "<group>";
+		};
+		AB378AE1215AE11A0098B81D = {
+			isa = PBXGroup;
+			children = (
+				ABAA2CE7215D54DD0084D771 /* USPresidents */,
+				AB378AFF215AE1380098B81D /* USFounders.plist */,
+				ABFE5CB6216539D900D97E75 /* Presidents.swift */,
+				AB378AEC215AE11A0098B81D /* TSatam-USFounders */,
+				AB378AEB215AE11A0098B81D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB378AEB215AE11A0098B81D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB378AEA215AE11A0098B81D /* TSatam-USFounders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB378AEC215AE11A0098B81D /* TSatam-USFounders */ = {
+			isa = PBXGroup;
+			children = (
+				AB378AED215AE11A0098B81D /* AppDelegate.swift */,
+				AB0A9E2121686570007153E6 /* HTML */,
+				AB0A9E1F216860F9007153E6 /* AboutAuthorViewController.swift */,
+				AB9EF3F52168122000B3C774 /* DetailViewController.swift */,
+				AB378AF4215AE11A0098B81D /* Assets.xcassets */,
+				AB378AF6215AE11A0098B81D /* LaunchScreen.storyboard */,
+				AB378AF9215AE11A0098B81D /* Info.plist */,
+				AB6327712165651200B905C4 /* PresidentTableViewController.swift */,
+				ABA815AD21680E8400545062 /* TableViewCell.swift */,
+			);
+			path = "TSatam-USFounders";
+			sourceTree = "<group>";
+		};
+		ABAA2CE7215D54DD0084D771 /* USPresidents */ = {
+			isa = PBXGroup;
+			children = (
+				ABAA2CEE215D55080084D771 /* Alexander_Hamilton copy.jpg */,
+				ABAA2CF2215D55080084D771 /* Alexander_Hamilton.jpg */,
+				ABAA2CF5215D55080084D771 /* Benjamin Franklin copy.jpg */,
+				ABAA2CF0215D55080084D771 /* Benjamin Franklin.jpg */,
+				ABAA2CE9215D55080084D771 /* George Washington copy.jpg */,
+				ABAA2CF1215D55080084D771 /* George Washington.jpg */,
+				ABAA2CEC215D55080084D771 /* James Madison copy.jpg */,
+				ABAA2CEF215D55080084D771 /* James Madison.jpg */,
+				ABAA2CF3215D55080084D771 /* John Adams copy.jpg */,
+				ABAA2CF4215D55080084D771 /* John Adams.jpg */,
+				ABAA2CEB215D55080084D771 /* John Jay copy.jpg */,
+				ABAA2CE8215D55080084D771 /* John Jay.jpg */,
+				ABAA2CEA215D55080084D771 /* Thomas Jefferson copy.jpg */,
+				ABAA2CED215D55080084D771 /* Thomas Jefferson.jpg */,
+			);
+			path = USPresidents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB378AE9215AE11A0098B81D /* TSatam-USFounders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB378AFC215AE11A0098B81D /* Build configuration list for PBXNativeTarget "TSatam-USFounders" */;
+			buildPhases = (
+				AB378AE6215AE11A0098B81D /* Sources */,
+				AB378AE7215AE11A0098B81D /* Frameworks */,
+				AB378AE8215AE11A0098B81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TSatam-USFounders";
+			productName = "TSatam-USFounders";
+			productReference = AB378AEA215AE11A0098B81D /* TSatam-USFounders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB378AE2215AE11A0098B81D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tejas Satam";
+				TargetAttributes = {
+					AB378AE9215AE11A0098B81D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AB378AE5215AE11A0098B81D /* Build configuration list for PBXProject "TSatam-USFounders" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB378AE1215AE11A0098B81D;
+			productRefGroup = AB378AEB215AE11A0098B81D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB378AE9215AE11A0098B81D /* TSatam-USFounders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB378AE8215AE11A0098B81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0A9E26216865A4007153E6 /* css in Resources */,
+				AB378B00215AE1380098B81D /* USFounders.plist in Resources */,
+				ABAA2CFA215D55080084D771 /* James Madison copy.jpg in Resources */,
+				ABAA2D01215D55080084D771 /* John Adams copy.jpg in Resources */,
+				ABAA2CF7215D55080084D771 /* George Washington copy.jpg in Resources */,
+				ABAA2CFD215D55080084D771 /* James Madison.jpg in Resources */,
+				AB378AF8215AE11A0098B81D /* LaunchScreen.storyboard in Resources */,
+				ABAA2D02215D55080084D771 /* John Adams.jpg in Resources */,
+				ABAA2CFC215D55080084D771 /* Alexander_Hamilton copy.jpg in Resources */,
+				ABAA2CF6215D55080084D771 /* John Jay.jpg in Resources */,
+				ABAA2CFB215D55080084D771 /* Thomas Jefferson.jpg in Resources */,
+				ABAA2CFE215D55080084D771 /* Benjamin Franklin.jpg in Resources */,
+				AB0A9E27216865A4007153E6 /* images in Resources */,
+				ABAA2D00215D55080084D771 /* Alexander_Hamilton.jpg in Resources */,
+				ABAA2CFF215D55080084D771 /* George Washington.jpg in Resources */,
+				AB378AF5215AE11A0098B81D /* Assets.xcassets in Resources */,
+				AB378AF3215AE11A0098B81D /* Main.storyboard in Resources */,
+				ABAA2D03215D55080084D771 /* Benjamin Franklin copy.jpg in Resources */,
+				ABAA2CF9215D55080084D771 /* John Jay copy.jpg in Resources */,
+				AB0A9E25216865A4007153E6 /* index.html in Resources */,
+				ABAA2CF8215D55080084D771 /* Thomas Jefferson copy.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB378AE6215AE11A0098B81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFE5CB7216539D900D97E75 /* Presidents.swift in Sources */,
+				AB0A9E20216860F9007153E6 /* AboutAuthorViewController.swift in Sources */,
+				ABA815AE21680E8400545062 /* TableViewCell.swift in Sources */,
+				AB9EF3F62168122000B3C774 /* DetailViewController.swift in Sources */,
+				AB6327722165651200B905C4 /* PresidentTableViewController.swift in Sources */,
+				AB378AEE215AE11A0098B81D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB378AF1215AE11A0098B81D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB378AF2215AE11A0098B81D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB378AF6215AE11A0098B81D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB378AF7215AE11A0098B81D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB378AFA215AE11A0098B81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB378AFB215AE11A0098B81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB378AFD215AE11A0098B81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H73X4N48RJ;
+				INFOPLIST_FILE = "TSatam-USFounders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.niu.cs.TSatam-USFounders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB378AFE215AE11A0098B81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H73X4N48RJ;
+				INFOPLIST_FILE = "TSatam-USFounders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.niu.cs.TSatam-USFounders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB378AE5215AE11A0098B81D /* Build configuration list for PBXProject "TSatam-USFounders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB378AFA215AE11A0098B81D /* Debug */,
+				AB378AFB215AE11A0098B81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB378AFC215AE11A0098B81D /* Build configuration list for PBXNativeTarget "TSatam-USFounders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB378AFD215AE11A0098B81D /* Debug */,
+				AB378AFE215AE11A0098B81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB378AE2215AE11A0098B81D /* Project object */;
+}

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Minervas Restaurant - Sioux Falls</string>
+		<key>Address</key>
+		<string>301 S Phillips Ave, Sioux Falls, SD 57104</string>
+		<key>Speciality</key>
+		<string>Resturant</string>
+		<key>Hours</key>
+		<string>11AM-10PM</string>
+		<key>Phone</key>
+		<string>(605)3340386</string>
+		<key>Detail</key>
+		<string>Veteran American grill dishing out faves from grilled fare to seafood in white-tablecloth surrounds.</string>
+		<key>cell-image</key>
+		<string>miners copy.jpg</string>
+		<key>Image</key>
+		<string>miners.jpg</string>
+		<key>Website</key>
+		<string>http://www.minervas.net</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Carnaval Brazilian Grill</string>
+		<key>Address</key>
+		<string>2401 S Carolyn Ave, Sioux Falls, SD 57106</string>
+		<key>Speciality</key>
+		<string>Brazilian Restaurant</string>
+		<key>Hours</key>
+		<string>4PM–10PM</string>
+		<key>Phone</key>
+		<string>(605)3616328</string>
+		<key>Detail</key>
+		<string>Contemporary restaurant serving bottomless plates of Brazilian food, from skewered meat to salads.</string>
+		<key>cell-image</key>
+		<string>carnival copy.jpg</string>
+		<key>Image</key>
+		<string>carnival.jpg</string>
+		<key>Website</key>
+		<string>https://www.carnavalbraziliangrill.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Spezia Restaurant</string>
+		<key>Address</key>
+		<string>4801 S Louise Ave, Sioux Falls, SD 57106</string>
+		<key>Speciality</key>
+		<string>Italian Restaurant</string>
+		<key>Hours</key>
+		<string>11AM–10PM</string>
+		<key>Phone</key>
+		<string>(605)3347491</string>
+		<key>Detail</key>
+		<string>Relaxed Italian specialist offering charbroiled steak, seafood &amp; pasta in a warm, spacious setting.</string>
+		<key>cell-image</key>
+		<string>spezia copy.jpg</string>
+		<key>Image</key>
+		<string>spezia.jpg</string>
+		<key>Website</key>
+		<string>http://www.speziarestaurant.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Phillips Avenue Diner</string>
+		<key>Address</key>
+		<string>121 S Phillips Ave, Sioux Falls, SD 57104</string>
+		<key>Speciality</key>
+		<string>American Restaurant</string>
+		<key>Hours</key>
+		<string>7AM–8PM</string>
+		<key>Phone</key>
+		<string>(605)3354977</string>
+		<key>Detail</key>
+		<string>Vintage venue with retro decor &amp; sizable American staples, plus all-day breakfast &amp; outdoor seating.</string>
+		<key>cell-image</key>
+		<string>phillips copy.jpg</string>
+		<key>Image</key>
+		<string>phillips.jpg</string>
+		<key>Website</key>
+		<string>https://www.phillipsavenuediner.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Roll&apos;n Pin Café &amp; Grille + Catering</string>
+		<key>Address</key>
+		<string>3015 Russell St, Sioux Falls, SD 57107</string>
+		<key>Speciality</key>
+		<string>New American Restaurant</string>
+		<key>Hours</key>
+		<string>7AM–2PM</string>
+		<key>Phone</key>
+		<string>6053399191</string>
+		<key>Detail</key>
+		<string>Roomy, enduring comfort joint serving an all-day menu of American classics, from pancakes to steak.</string>
+		<key>cell-image</key>
+		<string>roll copy.jpg</string>
+		<key>Image</key>
+		<string>roll.jpg</string>
+		<key>Website</key>
+		<string>https://rollnpin.com/#absolutely-delicious</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Jacky&apos;s Restaurant</string>
+		<key>Address</key>
+		<string>Diverse Latin cuisine including Mexican &amp; Guatemalan dishes in modest, brown-toned environs.</string>
+		<key>Speciality</key>
+		<string>Guatemalan Restaurant</string>
+		<key>Hours</key>
+		<string>11AM–9PM</string>
+		<key>Phone</key>
+		<string>6053360588</string>
+		<key>Detail</key>
+		<string>Diverse Latin cuisine including Mexican &amp; Guatemalan dishes in modest, brown-toned environs.</string>
+		<key>cell-image</key>
+		<string>jackys copy.jpg</string>
+		<key>Image</key>
+		<string>jackys.jpg</string>
+		<key>Website</key>
+		<string>http://jackysrestaurants.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cracker Barrel Old Country Store</string>
+		<key>Address</key>
+		<string>2409 S Shirley Ave, Sioux Falls, SD 57106</string>
+		<key>Speciality</key>
+		<string>American Restaurant</string>
+		<key>Hours</key>
+		<string>6AM–10PM</string>
+		<key>Phone</key>
+		<string>6053629395</string>
+		<key>Detail</key>
+		<string>Homey chain restaurant serving American comfort food, with an on-site general store.</string>
+		<key>cell-image</key>
+		<string>cracker copy.jpg</string>
+		<key>Image</key>
+		<string>cracker.jpg</string>
+		<key>Website</key>
+		<string>https://locations.crackerbarrel.com/sd/sioux-falls/445/?utm_source=Google&amp;utm_medium=Maps&amp;utm_campaign=Google+Places</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>MacKenzie River Pizza, Grill &amp; Pub</string>
+		<key>Address</key>
+		<string> 236 S Main Ave, Sioux Falls, SD 57104</string>
+		<key>Speciality</key>
+		<string>American Restaurant</string>
+		<key>Hours</key>
+		<string>11AM–10PM</string>
+		<key>Phone</key>
+		<string>6052755566</string>
+		<key>Detail</key>
+		<string>Pizzeria chain serving creative pies, sandwiches, beer &amp; wine in a casual, rustic setting.</string>
+		<key>cell-image</key>
+		<string>mackenzie copy.jpg</string>
+		<key>Image</key>
+		<string>mackenzie.jpg</string>
+		<key>Website</key>
+		<string>https://www.mackenzieriverpizza.com</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sanaa&apos;s Gourmet</string>
+		<key>Address</key>
+		<string> 401 E 8th St #100, Sioux Falls, SD 57103</string>
+		<key>Speciality</key>
+		<string>Mediterranean Restaurant</string>
+		<key>Hours</key>
+		<string>10:30AM–3PM</string>
+		<key>Phone</key>
+		<string>6052752516</string>
+		<key>Detail</key>
+		<string>Mediterranean lunch spot with vegetarian &amp; gluten-free options plus a Friday dinner buffet.</string>
+		<key>cell-image</key>
+		<string>sanaa copy.jpg</string>
+		<key>Image</key>
+		<string>sanaa.jpg</string>
+		<key>Website</key>
+		<string>http://sanaacooks.com/restaurant/</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>The Original Pancake House</string>
+		<key>Address</key>
+		<string> 2713 W 41st St, Sioux Falls, SD 57105</string>
+		<key>Speciality</key>
+		<string>Breakfast Restaurant</string>
+		<key>Hours</key>
+		<string>6AM–3PM</string>
+		<key>Phone</key>
+		<string>6052717222</string>
+		<key>Detail</key>
+		<string>Chain serving signature pancakes &amp; other American breakfast classics all day in dinerlike digs.</string>
+		<key>cell-image</key>
+		<string>pan copy.jpg</string>
+		<key>Image</key>
+		<string>pan.jpg</string>
+		<key>Website</key>
+		<string>http://originalpancakehousesiouxfalls.com</string>
+	</dict>
+</array>
+</plist>
