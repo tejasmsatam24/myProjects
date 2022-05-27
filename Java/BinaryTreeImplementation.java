@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 class Node{
     int data;
     Node left, right;
@@ -40,6 +43,38 @@ class BinaryTreeImplementation{
         System.out.print(root.data);
     }
 
+    public static void insert(Node root, int key){
+        if(root == null){
+            root = new Node(key);
+            return;
+        }
+
+         Node temp = root;
+
+        Queue <Node> q = new LinkedList<Node>();
+        q.add(root);
+
+        while(!q.isEmpty()){
+            temp = q.peek();
+            q.remove();
+
+            if(temp.left == null){
+                temp.left = new Node(key);
+                break;
+            }else{
+                q.add(temp.left);
+            }
+
+            if(temp.right == null){
+                temp.right = new Node(key);
+            }else{
+                q.add(temp.right);
+            }
+
+        }
+
+    }
+
 
 
     public static void main(String[] args){
@@ -60,6 +95,14 @@ class BinaryTreeImplementation{
 
         System.out.println("Performing Postorder Treversal....");
         postorderTreversal(tree.root);
+
+        System.out.println("Performing Insertion....");
+        insert(tree.root, 12);
+
+        System.out.println("TADA!! 12 was added....");
+
+        System.out.println("Performing Inorder Treversal....");
+        inorderTreversal(tree.root);
 
     }
 }
