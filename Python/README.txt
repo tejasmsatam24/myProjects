@@ -38,3 +38,24 @@ int num2 = 6.3;
 int sum = num1 + num2;
 
 System.out.println("The sum of" + num1 + "and" + num2 + "is" + sum + ".");
+
+
+#Basic if else statement in Python
+a = 200
+b = 33
+
+if b > a:
+	printf("b is greater than a")
+else:
+	print("b is not greater than a")
+
+#Basic if else statement in Java
+import java.util.*;
+
+int a = 200;
+int b = 3;
+
+if(b > a)
+	System.out.println("b is greater than a");
+else
+	System.out.println("b is not greater than a");
