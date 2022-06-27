@@ -82,6 +82,42 @@ public class LinkedList {
 		return list;
 		
 	}
+
+	public static LinkedList deleteByPosition (LinkedList list, int index) {
+
+		Node currNode = list.head, prev = null;
+
+		if (index == 0 && currNode != null) {
+			
+			list.head = currNode.next;
+
+			return listl
+
+		}
+
+		int counter = 0;
+
+		while (currNode != null) {
+
+			if (counter == index) {
+				
+				prev.next = currNode.next;
+
+				break;
+		
+			}else {
+
+				prev = currNode;
+
+				currNode = currNode.next;
+
+				counter++;
+
+			}
+
+		}
+
+	}
 	
 	public static void printList(LinkedList list){
 		
